@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de Iconos PWA</title>
+</head>
+<body>
+    <h1>Generador de Iconos PWA</h1>
+    <p>Este archivo HTML puede usarse para generar iconos usando Canvas API.</p>
+    
+    <canvas id="canvas" width="512" height="512" style="border: 1px solid #ccc;"></canvas>
+    <br><br>
+    <button onclick="generateIcon(72)">Generar 72x72</button>
+    <button onclick="generateIcon(96)">Generar 96x96</button>
+    <button onclick="generateIcon(128)">Generar 128x128</button>
+    <button onclick="generateIcon(144)">Generar 144x144</button>
+    <button onclick="generateIcon(152)">Generar 152x152</button>
+    <button onclick="generateIcon(192)">Generar 192x192</button>
+    <button onclick="generateIcon(384)">Generar 384x384</button>
+    <button onclick="generateIcon(512)">Generar 512x512</button>
+    
+    <script>
+        function generateIcon(size) {
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Configurar canvas
+            canvas.width = size;
+            canvas.height = size;
+            
+            // Fondo azul degradado
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#0d6efd');
+            gradient.addColorStop(1, '#0b5ed7');
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, size, size);
+            
+            // Círculo blanco interior
+            ctx.fillStyle = '#fff';
+            ctx.beginPath();
+            ctx.arc(size/2, size/2, size/2 - size*0.02, 0, 2 * Math.PI);
+            ctx.fill();
+            
+            // Copa de vino simplificada
+            const centerX = size / 2;
+            const centerY = size / 2;
+            const wineGlassSize = size * 0.3;
+            
+            ctx.strokeStyle = '#8B0000';
+            ctx.lineWidth = size * 0.01;
+            ctx.fillStyle = '#8B0000';
+            
+            // Copa de vino
+            ctx.beginPath();
+            ctx.moveTo(centerX - wineGlassSize/2, centerY - wineGlassSize/2);
+            ctx.quadraticCurveTo(centerX - wineGlassSize*0.6, centerY - wineGlassSize*0.8, 
+                               centerX - wineGlassSize*0.8, centerY - wineGlassSize);
+            ctx.quadraticCurveTo(centerX - wineGlassSize*0.9, centerY - wineGlassSize*1.1, 
+                               centerX - wineGlassSize*0.9, centerY - wineGlassSize*1.2);
+            ctx.lineTo(centerX - wineGlassSize*0.3, centerY - wineGlassSize*1.2);
+            ctx.lineTo(centerX - wineGlassSize*0.3, centerY + wineGlassSize*0.8);
+            
+            ctx.lineTo(centerX + wineGlassSize*0.3, centerY + wineGlassSize*0.8);
+            ctx.lineTo(centerX + wineGlassSize*0.3, centerY - wineGlassSize*1.2);
+            ctx.lineTo(centerX + wineGlassSize*0.9, centerY - wineGlassSize*1.2);
+            ctx.quadraticCurveTo(centerX + wineGlassSize*0.9, centerY - wineGlassSize*1.1, 
+                               centerX + wineGlassSize*0.8, centerY - wineGlassSize);
+            ctx.quadraticCurveTo(centerX + wineGlassSize*0.6, centerY - wineGlassSize*0.8, 
+                               centerX + wineGlassSize/2, centerY - wineGlassSize/2);
+            ctx.quadraticCurveTo(centerX + wineGlassSize*0.3, centerY - wineGlassSize*0.3, 
+                               centerX, centerY);
+            ctx.quadraticCurveTo(centerX - wineGlassSize*0.3, centerY - wineGlassSize*0.3, 
+                               centerX - wineGlassSize/2, centerY - wineGlassSize/2);
+            ctx.closePath();
+            ctx.stroke();
+            
+            // Líquido del vino
+            ctx.fillStyle = '#DC143C';
+            ctx.fill();
+            
+            // Texto $ y €
+            ctx.fillStyle = '#0d6efd';
+            ctx.font = `bold ${size * 0.08}px Arial`;
+            ctx.textAlign = 'center';
+            ctx.fillText('$', centerX - wineGlassSize*0.7, centerY + wineGlassSize*0.8);
+            ctx.fillText('€', centerX + wineGlassSize*0.7, centerY + wineGlassSize*0.8);
+            
+            // Descargar
+            const link = document.createElement('a');
+            link.download = `icon-${size}x${size}.png`;
+            link.href = canvas.toDataURL();
+            link.click();
+        }
+        
+        // Generar todos los iconos automáticamente
+        window.onload = function() {
+            const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+            sizes.forEach((size, index) => {
+                setTimeout(() => generateIcon(size), index * 500);
+            });
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    background: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e3f2fd;
+    cursor: pointer;
+}
+
+input#busqueda {
+    font-size: 1.1rem;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+/* Autocomplete dropdown */
+.autocomplete-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+}
+
+.autocomplete-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+    background-color: #e3f2fd;
+}
+
+.autocomplete-item:last-child {
+    border-bottom: none;
+}
