@@ -1,0 +1,1444 @@
+{
+  "metadata": {
+    "total_productos": 287,
+    "fecha_conversion": "2025-12-30",
+    "archivo_origen": "productos_precios.xlsx"
+  },
+  "productos": [
+    {
+      "Producto": "AGUA GASEADA PET 1/6/300 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 120.0
+    },
+    {
+      "Producto": "AGUA GASEADA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 180.0
+    },
+    {
+      "Producto": "AGUA MINERAL NATURAL PET 1/6/1.5 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 180.0
+    },
+    {
+      "Producto": "AGUA MINERAL NATURAL PET 500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 120.0
+    },
+    {
+      "Producto": "AGUA SABORIZADA SABOR MANZANA PET 330ML",
+      "USD": 0.0,
+      "CUP": 120.0
+    },
+    {
+      "Producto": "AGUA SABORIZADA SABOR PIÑA PET 330ML",
+      "USD": 0.0,
+      "CUP": 120.0
+    },
+    {
+      "Producto": "AGUA TONICA BOTELLA 330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 120.0
+    },
+    {
+      "Producto": "AGUA TONICA LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 120.0
+    },
+    {
+      "Producto": "BRANDY 10 AÑOS BOT 1/6/700 ML TORRES",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "BRANDY 15 AÑOS BOT 1/6/700 ML TORRES",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "BRANDY 20 AÑOS BOT 1/6/700 ML TORRES",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "BRANDY 5 AÑOS BOT 1/6/700 ML TORRES",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "BRANDY 36º VSOP BOT 1L 1/6/1 L NAPOLEON",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "BRANDY BOT 1/6/1L BARCEPAL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "BRANDY OF FRANCE 40 % BOT 1/6/70 CL NAPOLEON",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "BRANDY SPIRIT NAPOLEON BOTELLA 1/6/700 ML LE COUVIER",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "BRANDY ESPITUOSO REGIS MORE 30% 1/6/100CL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CREMA BOT 700ML 1/6/700 ML BARCELO",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CREMA BOT 750ML 1/12/750 ML BAILEYS",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CREMA DE TEQUILA SABOR A FRESA CAPITAN FRESÓN  17% 1/6/700 ML",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CREMA DE TEQUILA SABOR A MANGO MARIACHI EL MANGO 17% 1/6/700ML",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CREMA DE WHISKY 17% BOT 1/6/700 ML ELLIOT HALL",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CREMA DE WHISKY AIRISBEI 17 % BOT 1/6/0,70 LITRO",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CREMA ORIGINAL BOT 1/6/700 CL ROYAL PALM",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CREMA RUAVIEJA BOT 1/6/700 ML HAVANA CLUB",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "ELIXIR BOT 1/12/700 ML CUBAY 33",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "GIN 40 * BOT 12X70CL BEEFEATER",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "GIN BLACK POOL 37,5% 1/6/100CL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "GIN BOTELLA 12X750ML BEEFEATER",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "GINEBRA 37.5º BOT 1/6/70 CL CAPTAIN",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "GINEBRA BOT 1/12/1000 ML REYTHOR",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "GINEBRA BOT 1/6/100CL IMAGINATION",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "GINEBRA BOT 750 ML 1/12/750 ML TANQUERAY",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "LICOR AMARETO CONTI 28º BOT 700ML 1/6/700 ML BEVELAND",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "LICOR BOT 1/6/700 ML RICARD",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "LICOR COCONUT BOT 1/12/750 ML MALIBU",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "LICOR CREMA AL RON 18º HABANA 500 BOT 1/6/700 ML BVLAND",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "LICOR CREMA CATALANA BOT 700ML 1/6/700 ML BEVELAND",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "LICOR CURACAO AZUL BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR CURACAO BLUE BOT 700ML 1/6/700 ML BEVELAND",
+      "USD": 0.0,
+      "CUP": 180.0
+    },
+    {
+      "Producto": "LICOR DE CACAO BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR DE CAFÉ BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR DE COCO BOT 1/6/100 CL COCOBAY",
+      "USD": 0.0,
+      "CUP": 95.0
+    },
+    {
+      "Producto": "LICOR DE MELOCOTÓN C/ALC BOT 1/6/70CL SWEETESH",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR DE MENTA BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR DE MENTA BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 85.0
+    },
+    {
+      "Producto": "LICOR DE PIÑA BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR FRESA BOT 700ML 1/6/700 ML SOREL (ESPAÑA)",
+      "USD": 0.0,
+      "CUP": 140.0
+    },
+    {
+      "Producto": "LICOR GRANADINA BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR JAGGUIEROOT 35 % 1/6/700ML BARCEPAL",
+      "USD": 0.0,
+      "CUP": 155.0
+    },
+    {
+      "Producto": "LICOR MALT CREAM 16º BOT 700ML 1/6/700 ML BEVELAND",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "LICOR MARRASQUINO BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR PEPPERMINT 24 % 1/6/700ML BARCEPAL",
+      "USD": 0.0,
+      "CUP": 190.0
+    },
+    {
+      "Producto": "LICOR SAMBUCA EXTRA BOT 700 ML 1/6/700 ML MOLINARI",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "LICOR SAMBUCA 40º BOT 700 ML 1/6/700 ML VINCI",
+      "USD": 0.0,
+      "CUP": 185.0
+    },
+    {
+      "Producto": "LICOR SAMBUCA ROMINA 38% 1/6/1000ML BARCEPAL",
+      "USD": 0.0,
+      "CUP": 80.0
+    },
+    {
+      "Producto": "LICOR TRIPLE SEC TABAY 24 % BOT 1/6/1 LITRO",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LICOR TRIPLE SEC. BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "LIMONCELLO 30º BOT 1/6/70 CL CASAL D EMILIA",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "RON 40· PROFUNDO BOT 700 ML HAVANA CLUB",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "RON AÑEJO 15 AÑOS  0,70 L BOTELLA 700 ML HAVANA CLUB",
+      "USD": 110.0,
+      "CUP": 55000.0
+    },
+    {
+      "Producto": "RON AÑEJO 3 AÑOS  0.70 L BOTELLA 700 ML HAVANA CLUB",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "RON AÑEJO 3 AÑOS BOTELLA 1/12/1000 ML HAVANA CLUB",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "RON AÑEJO 7 AÑOS  0.70 L BOTELLA 700 ML HAVANA CLUB",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "RON AÑEJO 7 AÑOS BOT 1 L SIN ESTUCHE HAVANA CLUB",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "RON AÑEJO 8 AÑOS BOT 700 ML SANTIAGO DE CUBA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "RON AÑEJO BLANCO BOTELLA 1 L HAVANA CLUB",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "RON AÑEJO BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 300.0
+    },
+    {
+      "Producto": "RON AÑEJO BOT 1/12/700ML PERLA DEL NORTE",
+      "USD": 0.0,
+      "CUP": 240.0
+    },
+    {
+      "Producto": "RON AÑEJO BOT 1X12X700ML SANTA CRUZ",
+      "USD": 0.0,
+      "CUP": 240.0
+    },
+    {
+      "Producto": "RON AÑEJO ESPECIAL  BOTELLA 1 L HAVANA CLUB",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "RON AÑEJO RESERVA  0.70 L BOTELLA 700 ML HAVANA CLUB",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "RON AÑEJO RESERVA BOTELLA 1 L HAVANA CLUB",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "RON AÑEJO RITUAL CUBANO BOT 1/6/700ML HAVANA CLUB",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "RON AÑEJO SUAVE BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 50.0
+    },
+    {
+      "Producto": "RON AÑEJO SUPERIOR BOT 700ML GUANTANAMERA",
+      "USD": 0.0,
+      "CUP": 125.0
+    },
+    {
+      "Producto": "RON BLANCO LIGERO BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 85.0
+    },
+    {
+      "Producto": "RON BOT 6X70 CL PACTO NAVIO",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "RON C/B PET 700ML GUANTANAMERA",
+      "USD": 0.0,
+      "CUP": 125.0
+    },
+    {
+      "Producto": "RON CARTA BLANCA BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 135.0
+    },
+    {
+      "Producto": "RON CARTA BLANCA BOT 1/12/700ML PERLA DEL NORTE",
+      "USD": 0.0,
+      "CUP": 135.0
+    },
+    {
+      "Producto": "RON CARTA BLANCA BOT 1/12/700ML SANTA CRUZ",
+      "USD": 0.0,
+      "CUP": 135.0
+    },
+    {
+      "Producto": "RON CARTA BLANCA EXTRA VIEJO BOT 1/4/700 ML CUBAY",
+      "USD": 70.0,
+      "CUP": 35000.0
+    },
+    {
+      "Producto": "RON C/ORO BOT 700ML GUANTANAMERA",
+      "USD": 0.0,
+      "CUP": 145.0
+    },
+    {
+      "Producto": "RON CARTA DE ORO BOT 700ML SANTA CRUZ",
+      "USD": 0.0,
+      "CUP": 100.0
+    },
+    {
+      "Producto": "RON CARTA DORADA BOT 1/12/700 ML CUBAY",
+      "USD": 0.0,
+      "CUP": 220.0
+    },
+    {
+      "Producto": "RON CARTA ORO 1/12/700ML BOT PERLA DEL NORTE",
+      "USD": 0.0,
+      "CUP": 145.0
+    },
+    {
+      "Producto": "RON CUBAN SMOKY BOT 70 CL HAVANA CLUB",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "RON CUBAN SMOKY BOT 75 CL 40GL 12X75",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "RON CUBAN SPICED BOT 6X70 CL HAVANA CLUB",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "RON EMINENTE AMBAR CLARO 700ML",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "RON EMINENTE RESERVA 7 AÑOS 700ML",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "RON ESPECIAL  0.70 L BOTELLA 700 ML HAVANA CLUB",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "RON EXTRA AÑEJO 11 AÑOS BOT 1/6/700 ML SANTIAGO DE CUBA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "RON EXTRA AÑEJO 12 AÑOS BOT 1/6/700 ML SANTIAGO DE CUBA",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "RON EXTRA AÑEJO 1870 BOT 700ML CUBAY",
+      "USD": 90.0,
+      "CUP": 45000.0
+    },
+    {
+      "Producto": "RON EXTRA AÑEJO 20 AÑOS BOT 1/6/700 ML SANTIAGO DE CUBA",
+      "USD": 35.0,
+      "CUP": 17500.0
+    },
+    {
+      "Producto": "RON HC UNION BOT 1/3/70 CL HAVANA CLUB",
+      "USD": 100.0,
+      "CUP": 50000.0
+    },
+    {
+      "Producto": "RON SELECCIÓN DE MAESTROS 0.70 L BOTELLA 700 ML HAVANA CLUB",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "TEQUILA 38º BOT 700ML 1/6/700 ML TRES SOMBREROS",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TEQUILA JOSE SARMENTO 35% 1/12/100CL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "TEQUILA REPOSADO 35 ALC BOT 12X70CL OLMECA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "TEQUILA SILVER 35 BOT 12X70CL OLMECA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "TEQUILA SPIRIT 30% BOT 1/6/1000ML TABAY",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "TEQUILA SPIRIT CRUZADA 30% ALC. 1/6/1000 ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VERMOUTH BLANCO BOT 1L 1/6/1 L VOLINI",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VERMOUTH ROJO BOT 1L 1/6/1 L VOLINI",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA (100% GRANO RUSO) 37,5º ALC BOT 1/6/1000ML KOLTSSOVA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA 37.5 % ALC BOT 1/6/1 L TABARISH",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA 37.5 % ALC BOT 1/6/700 ML TABARISH",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA 37.5º BOT 1 L 1/12/1 L SAMARSKAYA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA 40 º ALC BOT 1/6/1000 ML LYUBOV",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA 40 º ALC BOT 1/6/700 ML LYUBOV",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA 40% BOT 1/6/1000 ML NA ZDOROVIE",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA BOT 1/12/1 L VILLA CLARA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VODKA BOT 1/12/75 CL ABSOLUT",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VODKA BOT 1/6/700 ML PRINCIPE IGOR",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISHY FOUNDERS RESERVE BOT 6X70 CL THE GLENLIVET",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY 12 AÑOS 40º BOT 700ML 1/6/700 ML GLEN SILVER´S",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "WHISKY 12 YEARS 40* BOT 12X700 ML CHIVAS REGAL",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "WHISKY 18 YEARS 40* BOTELLA 6X700 ML CHIVAS REGAL",
+      "USD": 5.0,
+      "CUP": 2500.0
+    },
+    {
+      "Producto": "WHISKY 8 AÑOS 40º BOT 700ML 1/6/700 ML GLEN SILVER´S",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "WHISKY BLACK & WHITE BOT 750 ML 1/12/750 ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY BLACK LABEL 12 AÑOS BOT 750 ML 1/12/750 ML JOHNNIE WALKER",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "WHISKY BLENDED MALT 40º BOT 1/6/700 ML GLEN SILVER´S",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY BOT 1/12/70CL SCOTH LANDS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY BOT 1/6/1000ML CLAN CAMPBELL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY BOT 750 ML 1/12/750 ML VAT 69",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY FINEST 40* BOTELLA 12X700 ML BALLANTINES",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "WHISKY JAMESON IRISH-WHISKEY 5 AÑOS BOT 1/12/750 ML",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "WHISKY MARSHALL BOURBON 40 % ALC BOT 1/6/70 CL",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "WHISKY ORIGINAL BOT 6X70CL 40% GL JAMESON",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "WHISKY RED LABEL BOT 750 ML 1/12/750 ML JOHNNIE WALKER",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "WHISKY RESERVE 18 AÑOS BOT 750ML 1/12/750 ML BUCHANAN´S SPECIAL",
+      "USD": 9.0,
+      "CUP": 4500.0
+    },
+    {
+      "Producto": "WHISKY SOTCH 40º BOT 1 L 1/6/1 L GLEN SILVER´S",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "WHISKY SPIRIT 40% ALC BOT 1/6/100 CL ELLIOT HALL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY SPIRIT 40% BOT 1/6/700 ML PETER WALLACE",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY SPIRIT 40º ALC VOL 1/6/100 CL HOWELLS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY SPIRIT BOT 700 ML 1/12/700 ML OLD PREMIER´S",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY SPIRIT BOTELLA 1/6/700 ML BLACK HEAD",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "WHISKY SPIRITS 40 % ALC BOT 1/6/1 L OLD PARTNER",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA “69” BEER 5% LATA 1/24/330 ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA 5.2% LATA 1/24/355 ML CRISTAL EXTRA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA BOT 1/24/350 ML BUCANERO FUERTE",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA BOT 1/24/350 ML CRISTAL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA CRUZCAMPO PILSEN  4.8 VOL\nLATA 1/24/330 ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA DUTCH WINDMILL 4,6 % ALC LATA 1/24/330 ML BAVARIA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LAGER 5.2% ALC. SUPER BOCK LATA 330ML. 24/CAJA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LAGER LATA 1/24/355 ML MOOSEHEAD",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LATA 1*24*330 ML 4.8% ALC CLASICA MAHOU",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LATA 1/24/355 ML BUCANERO FUERTE",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LATA 1/24/355 ML CRISTAL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LATA 330 ML 1X24  (5% ALC) STELLA ARTOIS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LATA BIER HOLLAND IMPORT 1/24/33 CL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA PARRANDA PET 330 ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA RPET 1/6/500ML PARRANDA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "MANZANA ROJA VARIOS CALIBRES",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "TURRÓN ALICANTE PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN CHOCOLATE C/ALMENDRA 200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN CHOCOLATE C/ALMENDRA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRON CHOCOLATE CRUJIENTE EL ANTIGUO PQT 1/16/200 G",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN DE FRUTAS  PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN DE JIJONA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN DE NATA NUECES PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN DE YEMA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN IMPERIAL EXTRA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN IMPERIAL SIN AZUCAR. SUP. 200 GRAMOS, CAJA 17/U",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN YEMA TOSTADA EXTRA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "REFRESCO CM TUKOLA DIETETICA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO COLA LATA 330 ML CAJA 1/24/330 ML CINTRA",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO GASEADO   POMO  330ML EMBER",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO GASEADO LIMÓN 1/24/330 ML FRISED",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO GASEADO SABOR COLA 1/24/330 ML FRISED",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO GUSS COLA C/GAS ATLANTICO BOTELLA 0.5L 12U/CAJA",
+      "USD": 0.0,
+      "CUP": 360.0
+    },
+    {
+      "Producto": "REFRESCO GUSS NARANJA C/GAS ATLANTICO BOTELLA 0.5L 12U/CAJA",
+      "USD": 0.0,
+      "CUP": 360.0
+    },
+    {
+      "Producto": "REFRESCO IRONBEER 1/6/1500ML",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO LIMA LIMON LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO LIMA LIMON PET 1/16/330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO LIMA LIMON PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO SABOR LIMON LATA 330 ML 1/24/330 ML CINTRA",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO MATERVA LATA 355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO MATERVA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO NARANJA LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO NARANJA PET 1*12*330 ML AMARO",
+      "USD": 0.0,
+      "CUP": 120.0
+    },
+    {
+      "Producto": "REFRESCO NARANJA PET 1/16/330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO NARANJA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO PIÑITA LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 180.0
+    },
+    {
+      "Producto": "REFRESCO REVOLTOSA COLA C/GAS ATLANTICO BOTELLA 2L 6U/CAJA",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "REFRESCO REVOLTOSA NARANJA C/GAS ATLANTICO BOTELLA 2L 6U/CAJA",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "REFRESCO SABOR COLA LATA 330 ML 1/24/300 ML PEPSI COLA",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO SABOR COLA LATA 355 ML 1/24/355 ML COCA COLA",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO SABOR LIMON LATA 330 ML 1/24/300 ML SEVEN UP",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO SABOR NARANJA LATA 330 ML 1/24/300 ML MIRINDA",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO SABORES VARIOS PET 1/12/330 ML VARIAS",
+      "USD": 0.0,
+      "CUP": 75.0
+    },
+    {
+      "Producto": "REFRESCO TUKOLA DIETETICA PET 1/16/330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO TUKOLA LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO TUKOLA PET 1/16/330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "REFRESCO TUKOLA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "CAVA BRUT BOT 1/6/750 ML MISTINGUETT",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CAVA BRUT CORDON NEGRO BOT 750ML1/6/750 ML FREIXENET",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CAVA BRUT RESERVA BOT 6X75CL GRAN CAMPO VIEJO",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CAVA BRUT RESERVA BOT 750ML 1/6/750 ML SEGURA VIUDAS",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CAVA BRUT ROSADO BOT 1/6/750 ML MISTINGUETT",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CAVA CARAT SEMI SECO BOT 750ML 1/6/750 ML CASTELLBLANCH",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CAVA CARTA NEVADA SEMI SECO BOT 750ML 1/6/750 ML FREIXENET",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CAVA FREIXENET ICE BOT 1/6/750 ML",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CAVA GRAN BARON BRUT 6 BOT. 750ML X CAJA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CAVA ICE ROSE BOT 1/6/750 ML FREIXENET",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "CAVA PLATA BRUT BOT 750ML 1/6/750 ML CANALS & NUBIOLA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CAVAS CASTELLDE RIBES BRUT NATURE. BOTELLA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "SIDRA CERESER 660 ML",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "SIDRA CLASICA ASTURIANA BOT 1/6/750 ML MAYADOR",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "SIDRA CLASICA BOT 1/6/75 CL LA ALDEANA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO 100% CHARDONNAY CRIN ROJA BOT 750ML 1/6/75 CL",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO 100% VERDEJO CRIN ROJA BOT 750ML 1/6/75 CL",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO BOT 750 ML 1/12/750 ML LA CAMPANA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO CELESTE VERDEJO (D.O. RUEDA) BOT 1*6*750 ML PAGO DEL CIELO",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO CHARDONAY BOT 1*6*750ML I HEART",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO CHARDONNAY BOT 1/12/750 ML FRONTERA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO DE MESA BOT 750 ML 1/12/750 ML ENTRERIOS",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO FUSION CHENIN CHARDONNAY BOT 1/6/750 ML TORRES",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO JOVENÂ  AIREN SIN DOP. VIÃ‘A LASKA BOT 1*12*750 ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO JOVENÂ  VIURA CON DOC RIOJA . MI VILLA BOT 1*12*750ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO LAVIÑA BOT 1X6X750ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO SANGRE DE TORO CLASICO 1/6/750 ML TORRES",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO SANTA DIGNA CHARDONNAY RESERVA BOT 1/6/750 ML",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO SANTA JULIA TORRONTE BOT 1/6/750 ML TORRES",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO SAUVIGNON BLANC BOT 1*12*750ML HEMISFERIO",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO SAUVIGNON BLANC BOT 1*6*750ML I HEART",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO SELECCION BOT 750 ML 1/12/75 CL MASIA CONDAL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO SPARKLING ICE 750 ML 1X6 12% ALC BARON DE VALLS",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO BLANCO TREIXADURA D.O. RIBEIRO VIÑA AMOREIRO 750 ML 6/CAJA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO BLANCO VIÑA SOL BOT 1/6/750 ML TORRES",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO BLANCO CUVE PREMIUM BOT 1/6/75CL BRINCOS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO BLANCO GRANVAS CONDELIER 750ML/6 CAJA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO BOT 1/6/750 ML VIÑA ESMERALDA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO BOT 750ML 1/6/750 ML SEÑORIO DE ORGAZ",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO BOT 1/6/750 ML VIÑA ESMERALDA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO BRUT 11% ALC BOT 1/6/75CL BRINCOS",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO BRUT BOT 750ML 1/6/750 ML DUBOIS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO BRUT T/CORCHO BOT 1/6/750 ML NECTAR DE PARIS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO ROSADO PREMIUM CUVE BOT 750ML 1/6/75CL BRINCOS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ESPUMOSO ROSE 11% ALC BOT 1/6/75CL BRINCOS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO FREIXENET SPANISH STILL WINE D. O BLANCO BOT 1*6*750ML",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO ROSADO BOT 750ML 1/6/750 ML BARON DE VALLS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO RESERVA CARMÉNERE 12X750",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO RESERVADO ROSÉ 12X750",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ROSADO CRIN ROJA. BOTELLA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ROSADO DE MESA BOT 750 ML 1/12/750 ML ENTRERIOS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ROSADO LAVIÑA BOT 1X6X750ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ROSADO PLUVIUM BOT 1/6/750 ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ROSADO SANTA DIGNA BOT 1/6/750 ML TORRES",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO ROSADO SHIRAZ/CARIÑENA BOT 1/6/750 ML SANGRE DE TORO",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO ROSADO SPARKLING ICE 750 ML 1X6 12% ALC BARON DE VALLS",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO ROSADO TEMPRANILLA / GARNACHA / VIURA CON DOC RIOJA",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO TINTO (D.O CA PRIORAT) BOT 1*6*750 ML SECRET PRIORAT",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "VINO TINTO ALTOS IBERICOS CRIANZA RIOJA BOT 1/6/750 ML TORRES",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO ALTOS IBERICOS RVA BOT 1/6/750 ML TORRES",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "VINO TINTO BOT 750ML 1/6/750 ML BARON DE VALLS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO TINTO CABERNET SAUVIGNON  BOT 1*6*750ML I HEART",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO CAMPO VIEJO GRAN RESERVA BOT 1X6X75CL",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO CARMENERE RESERVADO BOT 1/12/750 ML SANTA CAROLINA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO CATEGORIA PREMIO BOT  75 CL 1/12/750 ML SANTA CAROLINA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO CELESTE ROBLE (D.O. RIBERA DEL DUERO) BOT 1*6*750 ML",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO CORONAS BOT 1/6/750 ML TORRES",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO CRIN ROJA CABERNET SAUVIGNON",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO CRIN ROJA TEMPRANILLO",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO DE MESA BOT 750 ML 1/12/750 ML ENTRERIOS",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO TINTO FREIXENET SPANISH STILL WINE D.O RIOJA BOT 1*6*750ML",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO GRAN CORONAS RESERVA CABERNET-SAUVIGNON BOT 1/6/750 ML",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO JEAN LEON 3055 BOT 1/6/750 ML TORRES",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "VINO TINTO LAVIÑA BOT 1X6X750ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO TINTO MENCIA D.O. RIBEIRA SACRA CONDE DE LAGARIÑOS 750 ML 6/CAJA",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "VINO TINTO MENCIA D.O. VALDEORRAS MIL RIOS 750ML/6 CAJA",
+      "USD": 4.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "VINO TINTO MERLOT  BOT 750ML 13% ALC 1/12/75CL GATO NEGRO",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO MERLOT BOT 1*6*750ML I HEART",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO MERLOT LAS CAMELIAS 750ML/6 CAJA",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO MERLOT RESERVADO BOT 1/12/750 ML SANTA CAROLINA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO PLUVIUM BOT 1/6/750 ML",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO TINTO PURGATORI BOT 1/6/750 ML TORRES",
+      "USD": 5.0,
+      "CUP": 2500.0
+    },
+    {
+      "Producto": "VINO TINTO RESERVA BOT 750ML CONDE SAN CRISTOBAL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "VINO TINTO RESERVA CABERNET SAUVIGNON 12X750",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO SANGRE DE TORO ORIGINAL BOT 1/6/750 ML TORRES",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO TEMPRANILLO D.O RIOJA BOT 6X75CL CAMPO VIEJO",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TINTO TEMPRANILLO RIOJA BOT 6/700CL CAMPO VIEJO",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "VINO TINTO VINEYARD MALBEC BOT 1/12/750 ML TRAPICHE",
+      "USD": 3.0,
+      "CUP": 1500.0
+    },
+    {
+      "Producto": "VINO TTO FREIXENET ITALIAN CHIANTI\nBOT 1/6/750ML",
+      "USD": 3.0,
+      "CUP": 1500.0
+    }
+  ]
+}

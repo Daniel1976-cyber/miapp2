@@ -6,23 +6,38 @@ let isOnline = navigator.onLine;
 let cacheVersion = null;
 let productosCache = new Map();
 
-// Datos de ejemplo para PWA estática
+// Cargar productos reales desde JSON
+let productosReales = [];
+let productosCargados = false;
+
+// Cargar datos de productos desde JSON
+async function cargarProductos() {
+    try {
+        const response = await fetch('./data/productos.json');
+        const data = await response.json();
+        productosReales = data.productos || [];
+        productosCargados = true;
+        console.log(`✅ Productos cargados: ${productosReales.length}`);
+        
+        // Mostrar algunos ejemplos en consola
+        if (productosReales.length > 0) {
+            console.log('Ejemplos de productos:', productosReales.slice(0, 3));
+        }
+        
+        return true;
+    } catch (error) {
+        console.error('Error cargando productos:', error);
+        return false;
+    }
+}
+
+// Datos de ejemplo como fallback
 const productosEjemplo = [
     { Producto: "VINO TINTO RESERVA", USD: 15.99, CUP: 380.00 },
     { Producto: "VINO BLANCO CHARDONNAY", USD: 18.75, CUP: 446.25 },
     { Producto: "WHISKY ESCOCÉS", USD: 32.50, CUP: 773.75 },
     { Producto: "VODKA RUSO", USD: 28.90, CUP: 687.25 },
-    { Producto: "CERVEZA ARTESANAL", USD: 3.50, CUP: 83.25 },
-    { Producto: "RON CARIBEÑO", USD: 25.40, CUP: 604.50 },
-    { Producto: "GINEBRA LONDON", USD: 35.75, CUP: 850.75 },
-    { Producto: "TEQUILA BLANCO", USD: 22.30, CUP: 530.70 },
-    { Producto: "BRANDY FRANCÉS", USD: 42.80, CUP: 1018.50 },
-    { Producto: "VERMÚ DULCE", USD: 12.50, CUP: 297.50 },
-    { Producto: "WHISKY AMERICANO", USD: 38.90, CUP: 925.25 },
-    { Producto: "VINO ROSADO", USD: 14.25, CUP: 339.00 },
-    { Producto: "LIMONCELLO", USD: 19.60, CUP: 466.50 },
-    { Producto: "GRAPPA ITALIANA", USD: 31.20, CUP: 742.80 },
-    { Producto: "CAVA ESPAÑOL", USD: 16.75, CUP: 398.75 }
+    { Producto: "CERVEZA ARTESANAL", USD: 3.50, CUP: 83.25 }
 ];
 
 // Estado de conectividad
@@ -80,12 +95,15 @@ function getCachedProductData(query) {
     return null;
 }
 
-// Buscar productos en datos de ejemplo
-function buscarProductosEstatico(query) {
+// Buscar productos en datos reales
+function buscarProductos(query) {
     if (!query) return [];
     
+    // Usar productos reales si están cargados, sino usar ejemplos
+    const productos = productosCargados ? productosReales : productosEjemplo;
+    
     query = query.toUpperCase().trim();
-    return productosEjemplo.filter(prod => 
+    return productos.filter(prod => 
         prod.Producto.toUpperCase().includes(query)
     ).slice(0, 50);
 }
@@ -101,8 +119,9 @@ async function buscar() {
         return;
     }
 
-    // Usar datos de ejemplo para PWA estática
-    const resultados = buscarProductosEstatico(query);
+    // Usar productos reales si están cargados, sino datos de ejemplo
+    const productos = productosCargados ? productosReales : productosEjemplo;
+    const resultados = buscarProductos(query);
     const data = { productos: resultados };
     
     // Cachear resultados exitosos
@@ -110,11 +129,19 @@ async function buscar() {
         cacheProductData(query, data);
     }
     
-    mostrarResultados(data, false);
+    // Mostrar mensaje sobre fuente de datos
+    let mensaje = '';
+    if (productosCargados) {
+        mensaje = `<div class="alert alert-success mb-3">✅ Mostrando ${resultados.length} productos de tu catálogo (${productos.length} total)</div>`;
+    } else {
+        mensaje = `<div class="alert alert-warning mb-3">⚠️ Mostrando productos de ejemplo (${resultados.length} de ${productos.length})</div>`;
+    }
+    
+    mostrarResultados(data, false, mensaje);
 }
 
 // Mostrar resultados
-function mostrarResultados(data, fromCache = false) {
+function mostrarResultados(data, fromCache = false, mensajeAdicional = '') {
     const resultadosDiv = document.getElementById('resultados');
     
     if (data.productos.length === 0) {
@@ -142,8 +169,8 @@ function mostrarResultados(data, fromCache = false) {
         tabla += `
             <tr>
                 <td><strong>${prod.Producto}</strong></td>
-                <td class="text-success">$${parseFloat(prod.USD).toFixed(2)}</td>
-                <td class="text-primary">$${parseFloat(prod.CUP).toFixed(2)}</td>
+                <td class="text-success">${parseFloat(prod.USD).toFixed(2)}</td>
+                <td class="text-primary">${parseFloat(prod.CUP).toFixed(2)}</td>
                 ${fromCache ? '<td><span class="badge bg-info">Cache</span></td>' : ''}
             </tr>
         `;
@@ -151,20 +178,29 @@ function mostrarResultados(data, fromCache = false) {
 
     tabla += '</tbody></table></div>';
     
-    // Agregar indicador de estado
-    if (fromCache) {
-        tabla = `<div class="alert alert-info mb-3">📱 Mostrando datos desde cache (modo offline)</div>` + tabla;
-    } else {
-        tabla = `<div class="alert alert-success mb-3">✅ Mostrando ${data.productos.length} productos de ejemplo</div>` + tabla;
+    // Construir contenido final
+    let contenidoFinal = '';
+    
+    // Agregar mensaje adicional si existe
+    if (mensajeAdicional) {
+        contenidoFinal += mensajeAdicional;
     }
     
-    resultadosDiv.innerHTML = tabla;
+    // Agregar indicador de estado
+    if (fromCache) {
+        contenidoFinal += `<div class="alert alert-info mb-3">📱 Mostrando datos desde cache (modo offline)</div>`;
+    }
+    
+    contenidoFinal += tabla;
+    
+    resultadosDiv.innerHTML = contenidoFinal;
 }
 
 // Obtener sugerencias (versión estática)
 async function obtenerSugerencias(query) {
     try {
-        const resultados = buscarProductosEstatico(query);
+        const productos = productosCargados ? productosReales : productosEjemplo;
+        const resultados = buscarProductos(query);
         return resultados.slice(0, 10).map(prod => prod.Producto);
     } catch (error) {
         console.error('Error obteniendo sugerencias:', error);
@@ -178,8 +214,17 @@ function addConnectionStatus() {
     if (navbar && !document.getElementById('connection-status')) {
         const statusDiv = document.createElement('div');
         statusDiv.id = 'connection-status';
-        statusDiv.className = 'alert alert-success mb-3';
-        statusDiv.innerHTML = '🌐 PWA Estática - Datos de Ejemplo';
+        
+        let mensaje = '';
+        if (productosCargados) {
+            mensaje = `✅ PWA con ${productosReales.length} productos reales cargados`;
+            statusDiv.className = 'alert alert-success mb-3';
+        } else {
+            mensaje = '⚠️ PWA con datos de ejemplo (productos no cargados)';
+            statusDiv.className = 'alert alert-warning mb-3';
+        }
+        
+        statusDiv.innerHTML = mensaje;
         
         const cardBody = navbar.querySelector('.card-body');
         if (cardBody) {
