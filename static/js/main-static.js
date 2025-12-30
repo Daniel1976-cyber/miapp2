@@ -13,10 +13,17 @@ let productosCargados = false;
 // Cargar datos de productos desde JSON
 async function cargarProductos() {
     try {
-        const response = await fetch('./data/productos.json');
+        console.log('🔄 Cargando productos desde JSON...');
+        const response = await fetch('./static/productos.json');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
         const data = await response.json();
         productosReales = data.productos || [];
         productosCargados = true;
+        
         console.log(`✅ Productos cargados: ${productosReales.length}`);
         
         // Mostrar algunos ejemplos en consola
@@ -26,7 +33,8 @@ async function cargarProductos() {
         
         return true;
     } catch (error) {
-        console.error('Error cargando productos:', error);
+        console.error('❌ Error cargando productos:', error);
+        console.log('📝 Usando datos de ejemplo como fallback');
         return false;
     }
 }
@@ -233,6 +241,23 @@ function addConnectionStatus() {
     }
 }
 
+// Actualizar indicador de estado después de cargar productos
+function updateConnectionStatus() {
+    const statusDiv = document.getElementById('connection-status');
+    if (statusDiv) {
+        let mensaje = '';
+        if (productosCargados) {
+            mensaje = `✅ PWA con ${productosReales.length} productos reales cargados`;
+            statusDiv.className = 'alert alert-success mb-3';
+        } else {
+            mensaje = '⚠️ PWA con datos de ejemplo (productos no cargados)';
+            statusDiv.className = 'alert alert-warning mb-3';
+        }
+        
+        statusDiv.innerHTML = mensaje;
+    }
+}
+
 // Mostrar dropdown con sugerencias
 function mostrarDropdown(sugerencias) {
     const dropdown = document.getElementById('autocomplete-dropdown');
@@ -363,8 +388,20 @@ window.addEventListener('load', function() {
     // Actualizar estado de conectividad
     updateOnlineStatus();
     
-    // Agregar indicador de conexión
+    // Agregar indicador de conexión (inicial)
     addConnectionStatus();
+    
+    // Cargar productos reales
+    cargarProductos().then(() => {
+        // Actualizar indicador después de cargar
+        updateConnectionStatus();
+        
+        // Si hay una búsqueda pendiente, ejecutarla
+        const busquedaInput = document.getElementById('busqueda');
+        if (busquedaInput && busquedaInput.value.trim()) {
+            buscar();
+        }
+    });
     
     // Verificar versión del cache
     checkCacheVersion();
@@ -375,7 +412,8 @@ window.addEventListener('load', function() {
         online: isOnline,
         cacheVersion: cacheVersion,
         appCache: productosCache.size,
-        productosEjemplo: productosEjemplo.length
+        productosEjemplo: productosEjemplo.length,
+        productosRealesCargados: productosCargados
     });
 });
 
@@ -385,5 +423,9 @@ window.PWAApp = {
     isOnline: () => isOnline,
     checkCacheVersion,
     productosCache: () => productosCache,
-    productosEjemplo
+    productosEjemplo,
+    cargarProductos,
+    updateConnectionStatus,
+    productosReales: () => productosReales,
+    productosCargados: () => productosCargados
 };
