@@ -1,7 +1,7 @@
-const CACHE_NAME = 'precios-app-v1.0.2';
-const STATIC_CACHE = 'static-cache-v1.0.2';
-const DYNAMIC_CACHE = 'dynamic-cache-v1.0.2';
-const API_CACHE = 'api-cache-v1.0.2';
+const CACHE_NAME = 'precios-app-v1.0.3';
+const STATIC_CACHE = 'static-cache-v1.0.3';
+const DYNAMIC_CACHE = 'dynamic-cache-v1.0.3';
+const API_CACHE = 'api-cache-v1.0.3';
 
 // Recursos estáticos a cachear (rutas relativas al manifest/sw en la raíz)
 const STATIC_ASSETS = [
@@ -53,15 +53,30 @@ self.addEventListener('fetch', event => {
 
   // Lógica principal de interceptación
   event.respondWith(async function () {
-    // 1. Intentar buscar en cache primero para recursos conocidos
+    // 1. Estrategia ESPECIAL para productos.json: Network-First
+    // Queremos que los precios siempre estén actualizados si hay internet
+    if (url.pathname.endsWith('productos.json')) {
+      try {
+        const networkResponse = await fetch(request);
+        if (networkResponse.ok) {
+          const cache = await caches.open(STATIC_CACHE);
+          cache.put(request, networkResponse.clone());
+          return networkResponse;
+        }
+      } catch (error) {
+        console.log('🌐 Error de red en productos.json, usando cache');
+      }
+    }
+
+    // 2. Intentar buscar en cache para otros recursos
     const cachedResponse = await caches.match(request);
     if (cachedResponse) return cachedResponse;
 
-    // 2. Si no está en cache o es una página, intentar red
+    // 3. Fallback a red
     try {
       const networkResponse = await fetch(request);
 
-      // Si la respuesta es válida, cachear estáticos dinámicamente
+      // Cachear estáticos dinámicamente
       if (networkResponse.ok && (
         url.pathname.includes('/static/') ||
         url.pathname.endsWith('.html') ||
@@ -73,7 +88,6 @@ self.addEventListener('fetch', event => {
 
       return networkResponse;
     } catch (error) {
-      // Fallback offline para navegación HTML
       if (request.headers.get('accept').includes('text/html')) {
         return caches.match('./index.html') || caches.match('./');
       }
