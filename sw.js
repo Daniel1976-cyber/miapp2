@@ -1,116 +1,85 @@
-const CACHE_NAME = 'precios-app-v1.0.0';
-const STATIC_CACHE = 'static-cache-v1.0.0';
-const DYNAMIC_CACHE = 'dynamic-cache-v1.0.0';
-const API_CACHE = 'api-cache-v1.0.0';
+const CACHE_NAME = 'precios-app-v1.0.2';
+const STATIC_CACHE = 'static-cache-v1.0.2';
+const DYNAMIC_CACHE = 'dynamic-cache-v1.0.2';
+const API_CACHE = 'api-cache-v1.0.2';
 
-// Recursos estáticos a cachear
+// Recursos estáticos a cachear (rutas relativas al manifest/sw en la raíz)
 const STATIC_ASSETS = [
   './',
   './index.html',
   './seleccion.html',
   './historial.html',
+  './manifest.json',
   './static/css/style.css',
   './static/js/main-static.js',
-  './static/manifest.json',
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
   'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
 ];
 
-// Recursos API a cachear (en esta versión estática se usa productos.json como "API")
-const API_ENDPOINTS = [
-  './static/productos.json'
-];
-
 // Instalar Service Worker
 self.addEventListener('install', event => {
-  console.log('🔧 Service Worker: Instalando...');
-
   event.waitUntil(
-    Promise.all([
-      // Cache de recursos estáticos
-      caches.open(STATIC_CACHE).then(cache => {
-        console.log('📦 Cacheando recursos estáticos');
-        return cache.addAll(STATIC_ASSETS);
-      }),
-
-      // Cache inicial para API (vacío)
-      caches.open(API_CACHE).then(cache => {
-        console.log('📦 Cache API inicializado');
-        return Promise.resolve();
-      })
-    ]).then(() => {
-      console.log('✅ Service Worker: Instalación completada');
-      // Forzar activación inmediata
-      return self.skipWaiting();
-    })
+    caches.open(STATIC_CACHE).then(cache => {
+      console.log('📦 Cacheando recursos estáticos');
+      return cache.addAll(STATIC_ASSETS);
+    }).then(() => self.skipWaiting())
   );
 });
 
-// Activar Service Worker
+// Activar y limpiar caches antiguos
 self.addEventListener('activate', event => {
-  console.log('🚀 Service Worker: Activando...');
-
   event.waitUntil(
-    Promise.all([
-      // Limpiar caches antiguos
-      caches.keys().then(cacheNames => {
-        return Promise.all(
-          cacheNames.map(cacheName => {
-            if (![
-              STATIC_CACHE,
-              DYNAMIC_CACHE,
-              API_CACHE
-            ].includes(cacheName)) {
-              console.log('🗑️ Eliminando cache antiguo:', cacheName);
-              return caches.delete(cacheName);
-            }
-          })
-        );
-      }),
-
-      // Tomar control inmediatamente
-      self.clients.claim()
-    ]).then(() => {
-      console.log('✅ Service Worker: Activación completada');
-    })
+    caches.keys().then(keys => Promise.all(
+      keys.map(key => {
+        if (![STATIC_CACHE, DYNAMIC_CACHE, API_CACHE].includes(key)) {
+          return caches.delete(key);
+        }
+      })
+    )).then(() => self.clients.claim())
   );
 });
 
-// Interceptar requests
+// Interceptar requests con soporte para subdirectorios (GitHub Pages)
 self.addEventListener('fetch', event => {
   const { request } = event;
   const url = new URL(request.url);
 
-  // Solo manejar requests del mismo origen
-  if (url.origin !== location.origin) {
+  // Solo manejar requests del mismo origen o CDN de Bootstrap
+  if (url.origin !== location.origin && !url.hostname.includes('cdn.jsdelivr.net')) {
     return;
   }
 
-  // Estrategia para diferentes tipos de recursos
-  if (request.method === 'GET') {
+  if (request.method !== 'GET') return;
 
-    // API endpoints: Network First con fallback a cache
-    if (url.pathname.startsWith('/api/')) {
-      event.respondWith(networkFirstStrategy(request));
-      return;
+  // Lógica principal de interceptación
+  event.respondWith(async function () {
+    // 1. Intentar buscar en cache primero para recursos conocidos
+    const cachedResponse = await caches.match(request);
+    if (cachedResponse) return cachedResponse;
+
+    // 2. Si no está en cache o es una página, intentar red
+    try {
+      const networkResponse = await fetch(request);
+
+      // Si la respuesta es válida, cachear estáticos dinámicamente
+      if (networkResponse.ok && (
+        url.pathname.includes('/static/') ||
+        url.pathname.endsWith('.html') ||
+        url.pathname.endsWith('manifest.json')
+      )) {
+        const cache = await caches.open(STATIC_CACHE);
+        cache.put(request, networkResponse.clone());
+      }
+
+      return networkResponse;
+    } catch (error) {
+      // Fallback offline para navegación HTML
+      if (request.headers.get('accept').includes('text/html')) {
+        return caches.match('./index.html') || caches.match('./');
+      }
+      return new Response('Offline', { status: 503 });
     }
-
-    // Recursos estáticos: Cache First
-    if (STATIC_ASSETS.includes(url.pathname) ||
-      url.pathname.startsWith('/static/')) {
-      event.respondWith(cacheFirstStrategy(request));
-      return;
-    }
-
-    // Páginas HTML: Network First con fallback a cache
-    if (request.headers.get('accept').includes('text/html')) {
-      event.respondWith(networkFirstStrategy(request));
-      return;
-    }
-
-    // Default: Stale While Revalidate
-    event.respondWith(staleWhileRevalidateStrategy(request));
-  }
+  }());
 });
 
 // Estrategia Network First (para APIs y páginas)

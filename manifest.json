@@ -2,7 +2,7 @@
   "name": "Consultor de Precios - App de Productos",
   "short_name": "PreciosApp",
   "description": "Aplicación para consultar precios de productos en USD y CUP",
-  "start_url": "./",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0d6efd",
   "theme_color": "#0d6efd",
