@@ -15,26 +15,26 @@ def convertir_excel_a_json():
     archivo_excel = Path("data/productos_precios.xlsx")
     archivo_json = Path("static/productos.json")
     
-    print("🔄 Convirtiendo Excel a JSON para PWA...")
+    print("Convirtiendo Excel a JSON para PWA...")
     
     try:
         # Leer archivo Excel
-        print(f"📖 Leyendo: {archivo_excel}")
+        print(f"Leyendo: {archivo_excel}")
         df = pd.read_excel(archivo_excel)
         
-        print(f"📊 Total de filas: {len(df)}")
-        print(f"📋 Columnas: {list(df.columns)}")
+        print(f"Total de filas: {len(df)}")
+        print(f"Columnas: {list(df.columns)}")
         
         # Filtrar filas que tienen producto válido
         df_filtrado = df[df['Producto'].notna()].copy()
-        print(f"✅ Productos válidos: {len(df_filtrado)}")
+        print(f"Productos validos: {len(df_filtrado)}")
         
         # Limpiar y procesar datos
         df_filtrado['Producto'] = df_filtrado['Producto'].astype(str).str.strip().str.upper()
         
         # Usar las columnas USD y CUP si existen, sino usar las últimas columnas numéricas
         columnas_numericas = df_filtrado.select_dtypes(include=['number']).columns.tolist()
-        print(f"🔢 Columnas numéricas: {columnas_numericas}")
+        print(f"Columnas numericas: {columnas_numericas}")
         
         # Buscar columnas USD y CUP
         usd_col = None
@@ -54,7 +54,7 @@ def convertir_excel_a_json():
             usd_col = columnas_numericas[-1]
             cup_col = columnas_numericas[-1]
         
-        print(f"💰 Usando columnas: USD={usd_col}, CUP={cup_col}")
+        print(f"Usando columnas: USD={usd_col}, CUP={cup_col}")
         
         # Crear lista de productos
         productos = []
@@ -69,7 +69,7 @@ def convertir_excel_a_json():
             if producto["Producto"] and producto["Producto"] != 'NAN' and (producto["USD"] > 0 or producto["CUP"] > 0):
                 productos.append(producto)
         
-        print(f"📦 Productos procesados: {len(productos)}")
+        print(f"Productos procesados: {len(productos)}")
         
         # Crear estructura JSON para PWA
         data_pwa = {
@@ -86,11 +86,11 @@ def convertir_excel_a_json():
         with open(archivo_json, 'w', encoding='utf-8') as f:
             json.dump(data_pwa, f, ensure_ascii=False, indent=2)
         
-        print(f"✅ JSON creado: {archivo_json}")
-        print(f"📏 Tamaño archivo: {archivo_json.stat().st_size / 1024:.1f} KB")
+        print(f"JSON creado: {archivo_json}")
+        print(f"Tamano archivo: {archivo_json.stat().st_size / 1024:.1f} KB")
         
         # Mostrar algunos ejemplos
-        print("\n🔍 Ejemplos de productos:")
+        print("\nEjemplos de productos:")
         for i, producto in enumerate(productos[:5]):
             print(f"  {i+1}. {producto['Producto'][:50]} - USD: ${producto['USD']:.2f} - CUP: ${producto['CUP']:.2f}")
         
@@ -100,15 +100,15 @@ def convertir_excel_a_json():
         return True
         
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"Error: {e}")
         return False
 
 if __name__ == "__main__":
     success = convertir_excel_a_json()
     if success:
-        print("\n🎉 ¡Conversión completada exitosamente!")
-        print("📁 Archivo creado: static/productos.json")
-        print("🚀 Listo para usar en PWA")
+        print("\nConversion completada exitosamente!")
+        print("Archivo creado: static/productos.json")
+        print("Listo para usar en PWA")
     else:
-        print("\n💥 Error en la conversión")
+        print("\nError en la conversion")
         sys.exit(1)
