@@ -59,9 +59,15 @@ def convertir_excel_a_json():
         # Crear lista de productos
         productos = []
         for _, row in df_filtrado.iterrows():
+            # Forzar USD 0.00 si es Cerveza (pedido por usuario)
+            if "CERVEZA" in row['Producto'].upper():
+                usd_precio = 0.0
+            else:
+                usd_precio = float(row[usd_col]) if usd_col and pd.notna(row[usd_col]) else 0.0
+
             producto = {
                 "Producto": row['Producto'],
-                "USD": float(row[usd_col]) if usd_col and pd.notna(row[usd_col]) else 0.0,
+                "USD": usd_precio,
                 "CUP": float(row[cup_col]) if cup_col and pd.notna(row[cup_col]) else 0.0
             }
             
