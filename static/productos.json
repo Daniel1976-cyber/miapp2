@@ -26,9 +26,14 @@
       "CUP": 120.0
     },
     {
-      "Producto": "AGUA SABORIZADA SABOR MANZANA PET 330ML",
+      "Producto": "AGUA MINERAL NATURAL PET 500 ML CIEGO MONTERO",
       "USD": 0.0,
       "CUP": 120.0
+    },
+    {
+      "Producto": "AGUA NATURAL 500 ML",
+      "USD": 0.0,
+      "CUP": 250.0
     },
     {
       "Producto": "AGUA SABORIZADA SABOR PIÑA PET 330ML",
@@ -472,8 +477,8 @@
     },
     {
       "Producto": "RON EXTRA AÑEJO 11 AÑOS BOT 1/6/700 ML SANTIAGO DE CUBA",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "USD": 3.0,
+      "CUP": 1500.0
     },
     {
       "Producto": "RON EXTRA AÑEJO 12 AÑOS BOT 1/6/700 ML SANTIAGO DE CUBA",
