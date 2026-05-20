@@ -1,7 +1,7 @@
-const CACHE_NAME = 'precios-app-v1.0.3';
-const STATIC_CACHE = 'static-cache-v1.0.3';
-const DYNAMIC_CACHE = 'dynamic-cache-v1.0.3';
-const API_CACHE = 'api-cache-v1.0.3';
+const CACHE_NAME = 'precios-app-v1.0.4';
+const STATIC_CACHE = 'static-cache-v1.0.4';
+const DYNAMIC_CACHE = 'dynamic-cache-v1.0.4';
+const API_CACHE = 'api-cache-v1.0.4';
 
 // Recursos estáticos a cachear (rutas relativas al manifest/sw en la raíz)
 const STATIC_ASSETS = [
@@ -55,7 +55,7 @@ self.addEventListener('fetch', event => {
   event.respondWith(async function () {
     // 1. Estrategia ESPECIAL para productos.json: Network-First
     // Queremos que los precios siempre estén actualizados si hay internet
-    if (url.pathname.endsWith('productos.json')) {
+    if (url.pathname.endsWith('productos.json') || url.pathname.endsWith('.xlsx')) {
       try {
         const networkResponse = await fetch(request);
         if (networkResponse.ok) {
@@ -64,7 +64,7 @@ self.addEventListener('fetch', event => {
           return networkResponse;
         }
       } catch (error) {
-        console.log('🌐 Error de red en productos.json, usando cache');
+        console.log('🌐 Error de red en recurso dinámico, usando cache');
       }
     }
 
