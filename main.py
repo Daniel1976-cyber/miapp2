@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request, WebSocket, WebSocketDisconnect
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import json
 from pathlib import Path
@@ -16,6 +17,15 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = FastAPI(title="Consultor de Precios v2.1")
+
+# CORS: permitir consultas desde cualquier origen (necesario para PWA en GitHub Pages)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Montar archivos estáticos
 app.mount("/static", StaticFiles(directory="static"), name="static")

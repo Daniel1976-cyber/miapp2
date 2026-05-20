@@ -6,25 +6,27 @@ let isOnline = navigator.onLine;
 let cacheVersion = null;
 let productosCache = new Map();
 
-// Cargar productos reales desde JSON
+// Cargar productos reales desde la API del backend
 let productosReales = [];
 let productosCargados = false;
+const API_BASE = '/api';
 
-// Cargar datos de productos desde JSON
+// Cargar TODOS los productos desde la API del backend al iniciar
 async function cargarProductos() {
     try {
-        console.log('🔄 Cargando productos desde JSON...');
-        const response = await fetch('./static/productos.json');
+        console.log('🔄 Cargando productos desde API del backend...');
+        const response = await fetch(`${API_BASE}/productos/buscar?q=&limite=99999`);
         
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}: ${response.statusText}`);
         }
         
         const data = await response.json();
+        // La API devuelve {productos: [...]}
         productosReales = data.productos || [];
         productosCargados = true;
         
-        console.log(`✅ Productos cargados: ${productosReales.length}`);
+        console.log(`✅ Productos cargados desde API: ${productosReales.length}`);
         
         // Mostrar algunos ejemplos en consola
         if (productosReales.length > 0) {
@@ -33,7 +35,7 @@ async function cargarProductos() {
         
         return true;
     } catch (error) {
-        console.error('❌ Error cargando productos:', error);
+        console.error('❌ Error cargando productos desde API:', error);
         console.log('📝 Usando datos de ejemplo como fallback');
         return false;
     }
@@ -116,7 +118,7 @@ function buscarProductos(query) {
     ).slice(0, 50);
 }
 
-// Buscar productos con cache (versión estática)
+// Buscar productos consultando la API del backend (siempre trae datos frescos del Excel)
 async function buscar() {
     const query = document.getElementById('busqueda').value;
     ultimaBusqueda = query;
@@ -127,25 +129,52 @@ async function buscar() {
         return;
     }
 
-    // Usar productos reales si están cargados, sino datos de ejemplo
-    const productos = productosCargados ? productosReales : productosEjemplo;
-    const resultados = buscarProductos(query);
-    const data = { productos: resultados };
-    
-    // Cachear resultados exitosos
-    if (resultados.length > 0) {
-        cacheProductData(query, data);
+    // Si hay productos cargados, buscar localmente para respuesta instantánea
+    if (productosCargados && productosReales.length > 0) {
+        const resultados = buscarProductos(query);
+        const data = { productos: resultados };
+
+        // Cachear resultados exitosos
+        if (resultados.length > 0) {
+            cacheProductData(query, data);
+        }
+
+        const mensaje = `<div class="alert alert-success mb-3">✅ Mostrando ${resultados.length} productos de tu catálogo (${productosReales.length} total)</div>`;
+        mostrarResultados(data, false, mensaje);
+        return;
     }
-    
-    // Mostrar mensaje sobre fuente de datos
-    let mensaje = '';
-    if (productosCargados) {
-        mensaje = `<div class="alert alert-success mb-3">✅ Mostrando ${resultados.length} productos de tu catálogo (${productos.length} total)</div>`;
-    } else {
-        mensaje = `<div class="alert alert-warning mb-3">⚠️ Mostrando productos de ejemplo (${resultados.length} de ${productos.length})</div>`;
+
+    // Fallback: consultar API si no hay productos cargados
+    try {
+        const response = await fetch(`${API_BASE}/productos/buscar?q=${encodeURIComponent(query)}&limite=50`);
+        const data = await response.json();
+
+        if (data.productos && data.productos.length > 0) {
+            productosReales = data.productos;
+            productosCargados = true;
+            cacheProductData(query, data);
+        }
+
+        const mensaje = productosCargados
+            ? `<div class="alert alert-success mb-3">✅ Mostrando ${data.productos.length} productos de tu catálogo</div>`
+            : `<div class="alert alert-warning mb-3">⚠️ Sin conexión al backend</div>`;
+
+        mostrarResultados(data, false, mensaje);
+
+    } catch (error) {
+        console.error('Error en búsqueda:', error);
+
+        // Intentar usar cache
+        const cachedData = getCachedProductData(query);
+        if (cachedData) {
+            mostrarResultados(cachedData, true);
+            document.getElementById('resultados').innerHTML += 
+                '<div class="alert alert-warning mt-2">⚠️ Usando datos cacheados - Error de conexión al backend.</div>';
+        } else {
+            document.getElementById('resultados').innerHTML = 
+                '<div class="alert alert-danger">❌ Error al buscar. Verifica que el backend esté corriendo en el puerto 8000.</div>';
+        }
     }
-    
-    mostrarResultados(data, false, mensaje);
 }
 
 // Mostrar resultados
@@ -204,15 +233,22 @@ function mostrarResultados(data, fromCache = false, mensajeAdicional = '') {
     resultadosDiv.innerHTML = contenidoFinal;
 }
 
-// Obtener sugerencias (versión estática)
+// Obtener sugerencias desde la API del backend
 async function obtenerSugerencias(query) {
     try {
-        const productos = productosCargados ? productosReales : productosEjemplo;
-        const resultados = buscarProductos(query);
-        return resultados.slice(0, 10).map(prod => prod.Producto);
+        if (productosCargados && productosReales.length > 0) {
+            // Buscar localmente para respuesta instantánea
+            const resultados = buscarProductos(query);
+            return resultados.slice(0, 10).map(prod => prod.Producto);
+        }
+        // Fallback a API si no hay productos cargados
+        const response = await fetch(`${API_BASE}/productos/buscar?q=${encodeURIComponent(query)}&limite=10`);
+        const data = await response.json();
+        return (data.productos || []).map(prod => prod.Producto);
     } catch (error) {
         console.error('Error obteniendo sugerencias:', error);
-        return [];
+        // Último recurso: buscar en productos de ejemplo
+        return buscarProductos(query).slice(0, 10).map(prod => prod.Producto);
     }
 }
 
@@ -225,10 +261,10 @@ function addConnectionStatus() {
         
         let mensaje = '';
         if (productosCargados) {
-            mensaje = `✅ PWA con ${productosReales.length} productos reales cargados`;
+            mensaje = `✅ Conectado al backend · ${productosReales.length} productos cargados desde el Excel`;
             statusDiv.className = 'alert alert-success mb-3';
         } else {
-            mensaje = '⚠️ PWA con datos de ejemplo (productos no cargados)';
+            mensaje = '⚠️ Conectado al backend (productos aún no cargados)';
             statusDiv.className = 'alert alert-warning mb-3';
         }
         
@@ -247,10 +283,10 @@ function updateConnectionStatus() {
     if (statusDiv) {
         let mensaje = '';
         if (productosCargados) {
-            mensaje = `✅ PWA con ${productosReales.length} productos reales cargados`;
+            mensaje = `✅ Conectado al backend · ${productosReales.length} productos cargados desde el Excel`;
             statusDiv.className = 'alert alert-success mb-3';
         } else {
-            mensaje = '⚠️ PWA con datos de ejemplo (productos no cargados)';
+            mensaje = '⚠️ Conectado al backend (productos aún no cargados)';
             statusDiv.className = 'alert alert-warning mb-3';
         }
         
