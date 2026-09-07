@@ -1,54 +1,59 @@
 {
   "metadata": {
-    "total_productos": 288,
+    "total_productos": 297,
     "fecha_conversion": "2025-12-30",
     "archivo_origen": "productos_precios.xlsx"
   },
   "productos": [
     {
-      "Producto": "AGUA GASEADA PET 1/6/300 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 120.0
-    },
-    {
       "Producto": "AGUA GASEADA PET 1/6/1500 ML CIEGO MONTERO",
       "USD": 0.0,
-      "CUP": 180.0
+      "CUP": 400.0
+    },
+    {
+      "Producto": "AGUA GASEADA PET 1/6/300 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 250.0
     },
     {
       "Producto": "AGUA MINERAL NATURAL PET 1/6/1.5 ML CIEGO MONTERO",
       "USD": 0.0,
-      "CUP": 180.0
+      "CUP": 400.0
     },
     {
       "Producto": "AGUA MINERAL NATURAL PET 500 ML CIEGO MONTERO",
       "USD": 0.0,
-      "CUP": 120.0
+      "CUP": 300.0
+    },
+    {
+      "Producto": "AGUA NATURAL 330 ML",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "AGUA NATURAL 500 ML",
+      "USD": 0.0,
+      "CUP": 300.0
     },
     {
       "Producto": "AGUA SABORIZADA SABOR MANZANA PET 330ML",
       "USD": 0.0,
-      "CUP": 120.0
+      "CUP": 250.0
     },
     {
       "Producto": "AGUA SABORIZADA SABOR PIÑA PET 330ML",
       "USD": 0.0,
-      "CUP": 120.0
+      "CUP": 250.0
     },
     {
       "Producto": "AGUA TONICA BOTELLA 330 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 120.0
-    },
-    {
-      "Producto": "AGUA  NATURAL  500 ML SAN MIGUEL",
       "USD": 0.0,
       "CUP": 250.0
     },
     {
       "Producto": "AGUA TONICA LATA 1/24/355 ML CIEGO MONTERO",
       "USD": 0.0,
-      "CUP": 120.0
+      "CUP": 250.0
     },
     {
       "Producto": "BRANDY 10 AÑOS BOT 1/6/700 ML TORRES",
@@ -66,17 +71,22 @@
       "CUP": 1500.0
     },
     {
-      "Producto": "BRANDY 5 AÑOS BOT 1/6/700 ML TORRES",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
       "Producto": "BRANDY 36º VSOP BOT 1L 1/6/1 L NAPOLEON",
       "USD": 1.0,
       "CUP": 500.0
     },
     {
+      "Producto": "BRANDY 5 AÑOS BOT 1/6/700 ML TORRES",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
       "Producto": "BRANDY BOT 1/6/1L BARCEPAL",
+      "USD": 1.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "BRANDY ESPITUOSO REGIS MORE 30% 1/6/100CL",
       "USD": 1.0,
       "CUP": 500.0
     },
@@ -91,19 +101,94 @@
       "CUP": 500.0
     },
     {
-      "Producto": "BRANDY ESPITUOSO REGIS MORE 30% 1/6/100CL",
-      "USD": 1.0,
+      "Producto": "CERVEZA “69” BEER 5% LATA 1/24/330 ML",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA 5.2% LATA 1/24/355 ML CRISTAL EXTRA",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "CERVEZA BOT 1/24/350 ML BUCANERO FUERTE",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "CERVEZA BOT 1/24/350 ML CRISTAL",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "CERVEZA CRUZCAMPO PILSEN  4.8 VOL\nLATA 1/24/330 ML",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA DUTCH WINDMILL 4,6 % ALC LATA 1/24/330 ML BAVARIA",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LAGER 5.2% ALC. SUPER BOCK LATA 330ML. 24/CAJA",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LAGER LATA 1/24/355 ML MOOSEHEAD",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LATA 1*24*330 ML 4.8% ALC CLASICA MAHOU",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LATA 1/24/355 ML BUCANERO FUERTE",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "CERVEZA LATA 1/24/355 ML CRISTAL",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "CERVEZA LATA 330 ML 1X24  (5% ALC) STELLA ARTOIS",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA LATA BIER HOLLAND IMPORT 1/24/33 CL",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA MOYOC LATA 33CL",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA PARRANDA PET 330 ML",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CERVEZA RPET 1/6/500ML PARRANDA",
+      "USD": 0.0,
       "CUP": 500.0
     },
     {
       "Producto": "CREMA BOT 700ML 1/6/700 ML BARCELO",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "USD": 3.0,
+      "CUP": 1500.0
     },
     {
       "Producto": "CREMA BOT 750ML 1/12/750 ML BAILEYS",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "USD": 3.0,
+      "CUP": 1500.0
     },
     {
       "Producto": "CREMA DE TEQUILA SABOR A FRESA CAPITAN FRESÓN  17% 1/6/700 ML",
@@ -176,6 +261,21 @@
       "CUP": 1500.0
     },
     {
+      "Producto": "HELADO NESTLE 4.5L",
+      "USD": 12.0,
+      "CUP": 6000.0
+    },
+    {
+      "Producto": "JUGO DE MANZANA 200ML",
+      "USD": 0.0,
+      "CUP": 325.0
+    },
+    {
+      "Producto": "JUGO PERA LIGHT TETRA PACK",
+      "USD": 0.0,
+      "CUP": 325.0
+    },
+    {
       "Producto": "LICOR AMARETO CONTI 28º BOT 700ML 1/6/700 ML BEVELAND",
       "USD": 1.0,
       "CUP": 500.0
@@ -236,11 +336,6 @@
       "CUP": 130.0
     },
     {
-      "Producto": "LICOR DE MENTA BOT 1/12/700 ML CUBAY",
-      "USD": 0.0,
-      "CUP": 85.0
-    },
-    {
       "Producto": "LICOR DE PIÑA BOT 1/12/700 ML CUBAY",
       "USD": 0.0,
       "CUP": 130.0
@@ -276,14 +371,14 @@
       "CUP": 190.0
     },
     {
-      "Producto": "LICOR SAMBUCA EXTRA BOT 700 ML 1/6/700 ML MOLINARI",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
       "Producto": "LICOR SAMBUCA 40º BOT 700 ML 1/6/700 ML VINCI",
       "USD": 0.0,
       "CUP": 185.0
+    },
+    {
+      "Producto": "LICOR SAMBUCA EXTRA BOT 700 ML 1/6/700 ML MOLINARI",
+      "USD": 2.0,
+      "CUP": 1000.0
     },
     {
       "Producto": "LICOR SAMBUCA ROMINA 38% 1/6/1000ML BARCEPAL",
@@ -304,6 +399,166 @@
       "Producto": "LIMONCELLO 30º BOT 1/6/70 CL CASAL D EMILIA",
       "USD": 0.0,
       "CUP": 200.0
+    },
+    {
+      "Producto": "MANZANA ROJA VARIOS CALIBRES",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO CM TUKOLA DIETETICA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "REFRESCO COLA LATA 330 ML CAJA 1/24/330 ML CINTRA",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO COLA PET 1*12*300 ML AMARO",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO GASEADO   POMO  330ML EMBER",
+      "USD": 0.0,
+      "CUP": 250.0
+    },
+    {
+      "Producto": "REFRESCO GASEADO LIMÓN 1/24/330 ML FRISED",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO GASEADO SABOR COLA 1/24/330 ML FRISED",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO GUSS COLA C/GAS ATLANTICO BOTELLA 0.5L 12U/CAJA",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO GUSS NARANJA C/GAS ATLANTICO BOTELLA 0.5L 12U/CAJA",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO IRONBEER 1/6/1500ML",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "REFRESCO LIMA LIMON LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO LIMA LIMON PET 1/16/330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO LIMA LIMON PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "REFRESCO MATERVA LATA 355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO MATERVA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "REFRESCO NARANJA LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO NARANJA PET 1*12*330 ML AMARO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO NARANJA PET 1/16/330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO NARANJA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "REFRESCO PIÑITA LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO REVOLTOSA COLA C/GAS ATLANTICO BOTELLA 2L 6U/CAJA",
+      "USD": 0.0,
+      "CUP": 700.0
+    },
+    {
+      "Producto": "REFRESCO REVOLTOSA NARANJA C/GAS ATLANTICO BOTELLA 2L 6U/CAJA",
+      "USD": 0.0,
+      "CUP": 700.0
+    },
+    {
+      "Producto": "REFRESCO SABOR COLA LATA 330 ML 1/24/300 ML PEPSI COLA",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO SABOR COLA LATA 355 ML 1/24/355 ML COCA COLA",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO SABOR LIMON LATA 330 ML 1/24/300 ML SEVEN UP",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO SABOR LIMON LATA 330 ML 1/24/330 ML CINTRA",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO SABOR NARANJA LATA 330 ML 1/24/300 ML MIRINDA",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO SABORES VARIOS PET 1/12/330 ML VARIAS",
+      "USD": 0.0,
+      "CUP": 300.0
+    },
+    {
+      "Producto": "REFRESCO TUKOLA DIETETICA PET 1/16/330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO TUKOLA LATA 1/24/355 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO TUKOLA PET 1/16/330 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 400.0
+    },
+    {
+      "Producto": "REFRESCO TUKOLA PET 1/6/1500 ML CIEGO MONTERO",
+      "USD": 0.0,
+      "CUP": 600.0
     },
     {
       "Producto": "RON 40· PROFUNDO BOT 700 ML HAVANA CLUB",
@@ -327,13 +582,13 @@
     },
     {
       "Producto": "RON AÑEJO 7 AÑOS  0.70 L BOTELLA 700 ML HAVANA CLUB",
-      "USD": 3.0,
-      "CUP": 1500.0
+      "USD": 2.0,
+      "CUP": 1000.0
     },
     {
       "Producto": "RON AÑEJO 7 AÑOS BOT 1 L SIN ESTUCHE HAVANA CLUB",
-      "USD": 3.0,
-      "CUP": 1500.0
+      "USD": 2.0,
+      "CUP": 1000.0
     },
     {
       "Producto": "RON AÑEJO 8 AÑOS BOT 700 ML SANTIAGO DE CUBA",
@@ -362,13 +617,13 @@
     },
     {
       "Producto": "RON AÑEJO ESPECIAL  BOTELLA 1 L HAVANA CLUB",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "USD": 1.0,
+      "CUP": 500.0
     },
     {
       "Producto": "RON AÑEJO RESERVA  0.70 L BOTELLA 700 ML HAVANA CLUB",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "USD": 1.0,
+      "CUP": 500.0
     },
     {
       "Producto": "RON AÑEJO RESERVA BOTELLA 1 L HAVANA CLUB",
@@ -406,6 +661,11 @@
       "CUP": 125.0
     },
     {
+      "Producto": "RON C/ORO BOT 700ML GUANTANAMERA",
+      "USD": 0.0,
+      "CUP": 145.0
+    },
+    {
       "Producto": "RON CARTA BLANCA BOT 1/12/700 ML CUBAY",
       "USD": 0.0,
       "CUP": 135.0
@@ -426,11 +686,6 @@
       "CUP": 35000.0
     },
     {
-      "Producto": "RON C/ORO BOT 700ML GUANTANAMERA",
-      "USD": 0.0,
-      "CUP": 145.0
-    },
-    {
       "Producto": "RON CARTA DE ORO BOT 700ML SANTA CRUZ",
       "USD": 0.0,
       "CUP": 100.0
@@ -447,18 +702,18 @@
     },
     {
       "Producto": "RON CUBAN SMOKY BOT 70 CL HAVANA CLUB",
-      "USD": 3.0,
-      "CUP": 1500.0
+      "USD": 2.0,
+      "CUP": 1000.0
     },
     {
       "Producto": "RON CUBAN SMOKY BOT 75 CL 40GL 12X75",
-      "USD": 3.0,
-      "CUP": 1500.0
+      "USD": 2.0,
+      "CUP": 1000.0
     },
     {
       "Producto": "RON CUBAN SPICED BOT 6X70 CL HAVANA CLUB",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "USD": 1.0,
+      "CUP": 500.0
     },
     {
       "Producto": "RON EMINENTE AMBAR CLARO 700ML",
@@ -472,8 +727,8 @@
     },
     {
       "Producto": "RON ESPECIAL  0.70 L BOTELLA 700 ML HAVANA CLUB",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "USD": 1.0,
+      "CUP": 500.0
     },
     {
       "Producto": "RON EXTRA AÑEJO 11 AÑOS BOT 1/6/700 ML SANTIAGO DE CUBA",
@@ -492,8 +747,8 @@
     },
     {
       "Producto": "RON EXTRA AÑEJO 20 AÑOS BOT 1/6/700 ML SANTIAGO DE CUBA",
-      "USD": 35.0,
-      "CUP": 17500.0
+      "USD": 70.0,
+      "CUP": 35000.0
     },
     {
       "Producto": "RON HC UNION BOT 1/3/70 CL HAVANA CLUB",
@@ -502,8 +757,8 @@
     },
     {
       "Producto": "RON SELECCIÓN DE MAESTROS 0.70 L BOTELLA 700 ML HAVANA CLUB",
-      "USD": 4.0,
-      "CUP": 2000.0
+      "USD": 3.0,
+      "CUP": 1500.0
     },
     {
       "Producto": "TEQUILA 38º BOT 700ML 1/6/700 ML TRES SOMBREROS",
@@ -534,6 +789,61 @@
       "Producto": "TEQUILA SPIRIT CRUZADA 30% ALC. 1/6/1000 ML",
       "USD": 1.0,
       "CUP": 500.0
+    },
+    {
+      "Producto": "TURRÓN ALICANTE PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN CHOCOLATE C/ALMENDRA 200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN CHOCOLATE C/ALMENDRA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRON CHOCOLATE CRUJIENTE EL ANTIGUO PQT 1/16/200 G",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN DE FRUTAS  PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN DE JIJONA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN DE NATA NUECES PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN DE YEMA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN IMPERIAL EXTRA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN IMPERIAL SIN AZUCAR. SUP. 200 GRAMOS, CAJA 17/U",
+      "USD": 2.0,
+      "CUP": 1000.0
+    },
+    {
+      "Producto": "TURRÓN YEMA TOSTADA EXTRA PQT 1/17/200 G LA FLOR DE JIJONA",
+      "USD": 2.0,
+      "CUP": 1000.0
     },
     {
       "Producto": "VERMOUTH BLANCO BOT 1L 1/6/1 L VOLINI",
@@ -716,734 +1026,469 @@
       "CUP": 500.0
     },
     {
-      "Producto": "CERVEZA “69” BEER 5% LATA 1/24/330 ML",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA 5.2% LATA 1/24/355 ML CRISTAL EXTRA",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA BOT 1/24/350 ML BUCANERO FUERTE",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA BOT 1/24/350 ML CRISTAL",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA CRUZCAMPO PILSEN  4.8 VOL\nLATA 1/24/330 ML",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA DUTCH WINDMILL 4,6 % ALC LATA 1/24/330 ML BAVARIA",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA LAGER 5.2% ALC. SUPER BOCK LATA 330ML. 24/CAJA",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA LAGER LATA 1/24/355 ML MOOSEHEAD",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA LATA 1*24*330 ML 4.8% ALC CLASICA MAHOU",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA LATA 1/24/355 ML BUCANERO FUERTE",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA LATA 1/24/355 ML CRISTAL",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA LATA 330 ML 1X24  (5% ALC) STELLA ARTOIS",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA LATA BIER HOLLAND IMPORT 1/24/33 CL",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA PARRANDA PET 330 ML",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "CERVEZA RPET 1/6/500ML PARRANDA",
-      "USD": 0.0,
-      "CUP": 400.0
-    },
-    {
-      "Producto": "MANZANA ROJA VARIOS CALIBRES",
+      "Producto": "ARROZ BLANCO",
       "USD": 0.0,
       "CUP": 250.0
     },
     {
-      "Producto": "TURRÓN ALICANTE PQT 1/17/200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN CHOCOLATE C/ALMENDRA 200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN CHOCOLATE C/ALMENDRA PQT 1/17/200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRON CHOCOLATE CRUJIENTE EL ANTIGUO PQT 1/16/200 G",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN DE FRUTAS  PQT 1/17/200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN DE JIJONA PQT 1/17/200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN DE NATA NUECES PQT 1/17/200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN DE YEMA PQT 1/17/200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN IMPERIAL EXTRA PQT 1/17/200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN IMPERIAL SIN AZUCAR. SUP. 200 GRAMOS, CAJA 17/U",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "TURRÓN YEMA TOSTADA EXTRA PQT 1/17/200 G LA FLOR DE JIJONA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "REFRESCO CM TUKOLA DIETETICA PET 1/6/1500 ML CIEGO MONTERO",
+      "Producto": "ARROZ CON GRIS",
       "USD": 0.0,
-      "CUP": 250.0
+      "CUP": 400.0
     },
     {
-      "Producto": "REFRESCO COLA LATA 330 ML CAJA 1/24/330 ML CINTRA",
+      "Producto": "ARROZ CON SUBPRODUCTO DE CERDO",
       "USD": 0.0,
-      "CUP": 200.0
+      "CUP": 700.0
     },
     {
-      "Producto": "REFRESCO GASEADO   POMO  330ML EMBER",
+      "Producto": "ARROZ CON SUBPRODUCTO DE POLLO",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "BISTEC DE CERDO GRILLÉ",
+      "USD": 0.0,
+      "CUP": 2700.0
+    },
+    {
+      "Producto": "BISTEC DE CERDO GRILLÉ CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 3000.0
+    },
+    {
+      "Producto": "BISTEC DE CERDO SOSAKA",
+      "USD": 0.0,
+      "CUP": 3200.0
+    },
+    {
+      "Producto": "BISTEC DE CERDO SOSAKA CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 3500.0
+    },
+    {
+      "Producto": "BISTEC DE RES EN CAZUELA",
+      "USD": 0.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "BISTEC DE RES EN CAZUELA CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2300.0
+    },
+    {
+      "Producto": "BISTEC DE RES GRILLÉ",
+      "USD": 0.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "BISTEC DE RES GRILLÉ CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2300.0
+    },
+    {
+      "Producto": "CAFÉ AMERICANO",
+      "USD": 0.0,
+      "CUP": 100.0
+    },
+    {
+      "Producto": "CAFÉ CAPUCHINO",
       "USD": 0.0,
       "CUP": 200.0
     },
     {
-      "Producto": "REFRESCO GASEADO LIMÓN 1/24/330 ML FRISED",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO GASEADO SABOR COLA 1/24/330 ML FRISED",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO GUSS COLA C/GAS ATLANTICO BOTELLA 0.5L 12U/CAJA",
-      "USD": 0.0,
-      "CUP": 360.0
-    },
-    {
-      "Producto": "REFRESCO GUSS NARANJA C/GAS ATLANTICO BOTELLA 0.5L 12U/CAJA",
-      "USD": 0.0,
-      "CUP": 360.0
-    },
-    {
-      "Producto": "REFRESCO IRONBEER 1/6/1500ML",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO LIMA LIMON LATA 1/24/355 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 200.0
-    },
-    {
-      "Producto": "REFRESCO LIMA LIMON PET 1/16/330 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 200.0
-    },
-    {
-      "Producto": "REFRESCO LIMA LIMON PET 1/6/1500 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO SABOR LIMON LATA 330 ML 1/24/330 ML CINTRA",
-      "USD": 0.0,
-      "CUP": 200.0
-    },
-    {
-      "Producto": "REFRESCO MATERVA LATA 355 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 200.0
-    },
-    {
-      "Producto": "REFRESCO MATERVA PET 1/6/1500 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO NARANJA LATA 1/24/355 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 200.0
-    },
-    {
-      "Producto": "REFRESCO NARANJA PET 1*12*330 ML AMARO",
-      "USD": 0.0,
-      "CUP": 120.0
-    },
-    {
-      "Producto": "REFRESCO NARANJA PET 1/16/330 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 200.0
-    },
-    {
-      "Producto": "REFRESCO NARANJA PET 1/6/1500 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO PIÑITA LATA 1/24/355 ML CIEGO MONTERO",
+      "Producto": "CAFÉ CARAJILLO",
       "USD": 0.0,
       "CUP": 180.0
     },
     {
-      "Producto": "REFRESCO REVOLTOSA COLA C/GAS ATLANTICO BOTELLA 2L 6U/CAJA",
+      "Producto": "CAFÉ CON LECHE",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "CAFÉ CORTADITO",
+      "USD": 0.0,
+      "CUP": 130.0
+    },
+    {
+      "Producto": "CAFÉ EXPRESO",
+      "USD": 0.0,
+      "CUP": 100.0
+    },
+    {
+      "Producto": "CERDO ASADO",
+      "USD": 0.0,
+      "CUP": 3300.0
+    },
+    {
+      "Producto": "CERDO ASADO CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 3600.0
+    },
+    {
+      "Producto": "CHICHARRITAS DE PLATANO",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "COCTEL CAIPIRIÑA",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "COCTEL CUBA LIBRE",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "COCTEL CUBATA",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "COCTEL DAIQUIRÍ",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "COCTEL LIMONADA",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "COCTEL MARGARITA",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "COCTEL MOJITO",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "COCTEL PIÑA COLADA",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "COCTEL SANGRÍA",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "COLA DE LANGOSTA GRILLÉ",
+      "USD": 0.0,
+      "CUP": 3500.0
+    },
+    {
+      "Producto": "COLA DE LANGOSTA GRILLÉ CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 3800.0
+    },
+    {
+      "Producto": "COPA DE CERVEZA DISPENSADA 300 ML",
+      "USD": 0.0,
+      "CUP": 180.0
+    },
+    {
+      "Producto": "COPA DE CERVEZA DISPENSADA 330 ML",
+      "USD": 0.0,
+      "CUP": 200.0
+    },
+    {
+      "Producto": "CREMA AURORA",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CREMA DE QUESO",
+      "USD": 0.0,
+      "CUP": 500.0
+    },
+    {
+      "Producto": "CREMA REINA",
       "USD": 0.0,
       "CUP": 600.0
     },
     {
-      "Producto": "REFRESCO REVOLTOSA NARANJA C/GAS ATLANTICO BOTELLA 2L 6U/CAJA",
+      "Producto": "CREMA VIRGINIA",
+      "USD": 0.0,
+      "CUP": 700.0
+    },
+    {
+      "Producto": "CROQUETAS AL PLATO",
       "USD": 0.0,
       "CUP": 600.0
     },
     {
-      "Producto": "REFRESCO SABOR COLA LATA 330 ML 1/24/300 ML PEPSI COLA",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO SABOR COLA LATA 355 ML 1/24/355 ML COCA COLA",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO SABOR LIMON LATA 330 ML 1/24/300 ML SEVEN UP",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO SABOR NARANJA LATA 330 ML 1/24/300 ML MIRINDA",
-      "USD": 0.0,
-      "CUP": 250.0
-    },
-    {
-      "Producto": "REFRESCO SABORES VARIOS PET 1/12/330 ML VARIAS",
-      "USD": 0.0,
-      "CUP": 75.0
-    },
-    {
-      "Producto": "REFRESCO TUKOLA DIETETICA PET 1/16/330 ML CIEGO MONTERO",
+      "Producto": "DULCE DE ARROZ CON LECHE",
       "USD": 0.0,
       "CUP": 200.0
     },
     {
-      "Producto": "REFRESCO TUKOLA LATA 1/24/355 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 200.0
-    },
-    {
-      "Producto": "REFRESCO TUKOLA PET 1/16/330 ML CIEGO MONTERO",
-      "USD": 0.0,
-      "CUP": 200.0
-    },
-    {
-      "Producto": "REFRESCO TUKOLA PET 1/6/1500 ML CIEGO MONTERO",
+      "Producto": "DULCE FLAN DE LECHE",
       "USD": 0.0,
       "CUP": 250.0
     },
     {
-      "Producto": "CAVA BRUT BOT 1/6/750 ML MISTINGUETT",
-      "USD": 1.0,
-      "CUP": 500.0
+      "Producto": "ENSALADA DE VEGETALES",
+      "USD": 0.0,
+      "CUP": 400.0
     },
     {
-      "Producto": "CAVA BRUT CORDON NEGRO BOT 750ML1/6/750 ML FREIXENET",
-      "USD": 2.0,
+      "Producto": "ENSALADA ITALIANA",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "ENTREMÉS DE JAMÓN Y QUESO",
+      "USD": 0.0,
+      "CUP": 1200.0
+    },
+    {
+      "Producto": "ENTREMÉS DE JAMONADA Y QUESO",
+      "USD": 0.0,
       "CUP": 1000.0
     },
     {
-      "Producto": "CAVA BRUT RESERVA BOT 6X75CL GRAN CAMPO VIEJO",
-      "USD": 1.0,
-      "CUP": 500.0
+      "Producto": "EPERLÁN DE PESCADO",
+      "USD": 0.0,
+      "CUP": 1700.0
     },
     {
-      "Producto": "CAVA BRUT RESERVA BOT 750ML 1/6/750 ML SEGURA VIUDAS",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "CAVA BRUT ROSADO BOT 1/6/750 ML MISTINGUETT",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "CAVA CARAT SEMI SECO BOT 750ML 1/6/750 ML CASTELLBLANCH",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "CAVA CARTA NEVADA SEMI SECO BOT 750ML 1/6/750 ML FREIXENET",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "CAVA FREIXENET ICE BOT 1/6/750 ML",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "CAVA GRAN BARON BRUT 6 BOT. 750ML X CAJA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "CAVA ICE ROSE BOT 1/6/750 ML FREIXENET",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "CAVA PLATA BRUT BOT 750ML 1/6/750 ML CANALS & NUBIOLA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "CAVAS CASTELLDE RIBES BRUT NATURE. BOTELLA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "SIDRA CERESER 660 ML",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "SIDRA CLASICA ASTURIANA BOT 1/6/750 ML MAYADOR",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "SIDRA CLASICA BOT 1/6/75 CL LA ALDEANA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO 100% CHARDONNAY CRIN ROJA BOT 750ML 1/6/75 CL",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO 100% VERDEJO CRIN ROJA BOT 750ML 1/6/75 CL",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO BOT 750 ML 1/12/750 ML LA CAMPANA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO CELESTE VERDEJO (D.O. RUEDA) BOT 1*6*750 ML PAGO DEL CIELO",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO CHARDONAY BOT 1*6*750ML I HEART",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO CHARDONNAY BOT 1/12/750 ML FRONTERA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO DE MESA BOT 750 ML 1/12/750 ML ENTRERIOS",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO FUSION CHENIN CHARDONNAY BOT 1/6/750 ML TORRES",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO JOVENÂ  AIREN SIN DOP. VIÃ‘A LASKA BOT 1*12*750 ML",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO JOVENÂ  VIURA CON DOC RIOJA . MI VILLA BOT 1*12*750ML",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO LAVIÑA BOT 1X6X750ML",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO SANGRE DE TORO CLASICO 1/6/750 ML TORRES",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO SANTA DIGNA CHARDONNAY RESERVA BOT 1/6/750 ML",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO SANTA JULIA TORRONTE BOT 1/6/750 ML TORRES",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO SAUVIGNON BLANC BOT 1*12*750ML HEMISFERIO",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO SAUVIGNON BLANC BOT 1*6*750ML I HEART",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO SELECCION BOT 750 ML 1/12/75 CL MASIA CONDAL",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO SPARKLING ICE 750 ML 1X6 12% ALC BARON DE VALLS",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO BLANCO TREIXADURA D.O. RIBEIRO VIÑA AMOREIRO 750 ML 6/CAJA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO BLANCO VIÑA SOL BOT 1/6/750 ML TORRES",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO BLANCO CUVE PREMIUM BOT 1/6/75CL BRINCOS",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO BLANCO GRANVAS CONDELIER 750ML/6 CAJA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO BOT 1/6/750 ML VIÑA ESMERALDA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO BOT 750ML 1/6/750 ML SEÑORIO DE ORGAZ",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO BOT 1/6/750 ML VIÑA ESMERALDA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO BRUT 11% ALC BOT 1/6/75CL BRINCOS",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO BRUT BOT 750ML 1/6/750 ML DUBOIS",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO BRUT T/CORCHO BOT 1/6/750 ML NECTAR DE PARIS",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO ROSADO PREMIUM CUVE BOT 750ML 1/6/75CL BRINCOS",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ESPUMOSO ROSE 11% ALC BOT 1/6/75CL BRINCOS",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO FREIXENET SPANISH STILL WINE D. O BLANCO BOT 1*6*750ML",
-      "USD": 3.0,
-      "CUP": 1500.0
-    },
-    {
-      "Producto": "VINO ROSADO BOT 750ML 1/6/750 ML BARON DE VALLS",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO RESERVA CARMÉNERE 12X750",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO RESERVADO ROSÉ 12X750",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ROSADO CRIN ROJA. BOTELLA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ROSADO DE MESA BOT 750 ML 1/12/750 ML ENTRERIOS",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ROSADO LAVIÑA BOT 1X6X750ML",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ROSADO PLUVIUM BOT 1/6/750 ML",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ROSADO SANTA DIGNA BOT 1/6/750 ML TORRES",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO ROSADO SHIRAZ/CARIÑENA BOT 1/6/750 ML SANGRE DE TORO",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO ROSADO SPARKLING ICE 750 ML 1X6 12% ALC BARON DE VALLS",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO ROSADO TEMPRANILLA / GARNACHA / VIURA CON DOC RIOJA",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO TINTO (D.O CA PRIORAT) BOT 1*6*750 ML SECRET PRIORAT",
-      "USD": 4.0,
+      "Producto": "EPERLÁN DE PESCADO CON GUARNICIÓN",
+      "USD": 0.0,
       "CUP": 2000.0
     },
     {
-      "Producto": "VINO TINTO ALTOS IBERICOS CRIANZA RIOJA BOT 1/6/750 ML TORRES",
-      "USD": 3.0,
-      "CUP": 1500.0
+      "Producto": "ESCALOPE DE CERDO A LA PARMESANA",
+      "USD": 0.0,
+      "CUP": 3300.0
     },
     {
-      "Producto": "VINO TINTO ALTOS IBERICOS RVA BOT 1/6/750 ML TORRES",
-      "USD": 4.0,
+      "Producto": "ESCALOPE DE CERDO A LA PARMESANA CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 3600.0
+    },
+    {
+      "Producto": "FILETE DE PESCADO ENTOMATADO",
+      "USD": 0.0,
+      "CUP": 1700.0
+    },
+    {
+      "Producto": "FILETE DE PESCADO ENTOMATADO CON GUARNICIÓN",
+      "USD": 0.0,
       "CUP": 2000.0
     },
     {
-      "Producto": "VINO TINTO BOT 750ML 1/6/750 ML BARON DE VALLS",
-      "USD": 1.0,
-      "CUP": 500.0
+      "Producto": "FILETE DE PESCADO GRILLÉ",
+      "USD": 0.0,
+      "CUP": 1700.0
     },
     {
-      "Producto": "VINO TINTO CABERNET SAUVIGNON  BOT 1*6*750ML I HEART",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO TINTO CAMPO VIEJO GRAN RESERVA BOT 1X6X75CL",
-      "USD": 3.0,
-      "CUP": 1500.0
-    },
-    {
-      "Producto": "VINO TINTO CARMENERE RESERVADO BOT 1/12/750 ML SANTA CAROLINA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO TINTO CATEGORIA PREMIO BOT  75 CL 1/12/750 ML SANTA CAROLINA",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO TINTO CELESTE ROBLE (D.O. RIBERA DEL DUERO) BOT 1*6*750 ML",
-      "USD": 3.0,
-      "CUP": 1500.0
-    },
-    {
-      "Producto": "VINO TINTO CORONAS BOT 1/6/750 ML TORRES",
-      "USD": 3.0,
-      "CUP": 1500.0
-    },
-    {
-      "Producto": "VINO TINTO CRIN ROJA CABERNET SAUVIGNON",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO TINTO CRIN ROJA TEMPRANILLO",
-      "USD": 2.0,
-      "CUP": 1000.0
-    },
-    {
-      "Producto": "VINO TINTO DE MESA BOT 750 ML 1/12/750 ML ENTRERIOS",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO TINTO FREIXENET SPANISH STILL WINE D.O RIOJA BOT 1*6*750ML",
-      "USD": 3.0,
-      "CUP": 1500.0
-    },
-    {
-      "Producto": "VINO TINTO GRAN CORONAS RESERVA CABERNET-SAUVIGNON BOT 1/6/750 ML",
-      "USD": 3.0,
-      "CUP": 1500.0
-    },
-    {
-      "Producto": "VINO TINTO JEAN LEON 3055 BOT 1/6/750 ML TORRES",
-      "USD": 4.0,
+      "Producto": "FILETE DE PESCADO GRILLÉ CON GUARNICIÓN",
+      "USD": 0.0,
       "CUP": 2000.0
     },
     {
-      "Producto": "VINO TINTO LAVIÑA BOT 1X6X750ML",
-      "USD": 1.0,
-      "CUP": 500.0
-    },
-    {
-      "Producto": "VINO TINTO MENCIA D.O. RIBEIRA SACRA CONDE DE LAGARIÑOS 750 ML 6/CAJA",
-      "USD": 4.0,
-      "CUP": 2000.0
-    },
-    {
-      "Producto": "VINO TINTO MENCIA D.O. VALDEORRAS MIL RIOS 750ML/6 CAJA",
-      "USD": 4.0,
-      "CUP": 2000.0
-    },
-    {
-      "Producto": "VINO TINTO MERLOT  BOT 750ML 13% ALC 1/12/75CL GATO NEGRO",
-      "USD": 2.0,
+      "Producto": "HAMBURGUESA DE RES CON PAN",
+      "USD": 0.0,
       "CUP": 1000.0
     },
     {
-      "Producto": "VINO TINTO MERLOT BOT 1*6*750ML I HEART",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "Producto": "HAMBURGUESA DE RES GRATINADA CON JAMÓN",
+      "USD": 0.0,
+      "CUP": 1300.0
     },
     {
-      "Producto": "VINO TINTO MERLOT LAS CAMELIAS 750ML/6 CAJA",
-      "USD": 3.0,
+      "Producto": "HAMBURGUESA DE RES GRATINADA CON PAN",
+      "USD": 0.0,
+      "CUP": 1100.0
+    },
+    {
+      "Producto": "HAMBURGUESA DE RES XXLL CON PAN",
+      "USD": 0.0,
       "CUP": 1500.0
     },
     {
-      "Producto": "VINO TINTO MERLOT RESERVADO BOT 1/12/750 ML SANTA CAROLINA",
-      "USD": 2.0,
-      "CUP": 1000.0
+      "Producto": "INFUSIÓN DE TÉ",
+      "USD": 0.0,
+      "CUP": 60.0
     },
     {
-      "Producto": "VINO TINTO PLUVIUM BOT 1/6/750 ML",
-      "USD": 1.0,
-      "CUP": 500.0
+      "Producto": "JUGO DE FRUTAS NATURALES (FRUTA BOMBA)",
+      "USD": 0.0,
+      "CUP": 80.0
     },
     {
-      "Producto": "VINO TINTO PURGATORI BOT 1/6/750 ML TORRES",
-      "USD": 5.0,
+      "Producto": "JUGO DE FRUTAS NATURALES (GUAYABA)",
+      "USD": 0.0,
+      "CUP": 80.0
+    },
+    {
+      "Producto": "JUGO DE FRUTAS NATURALES (MANGO)",
+      "USD": 0.0,
+      "CUP": 80.0
+    },
+    {
+      "Producto": "JUGO DE FRUTAS NATURALES (MELÓN)",
+      "USD": 0.0,
+      "CUP": 80.0
+    },
+    {
+      "Producto": "JUGO DE FRUTAS NATURALES (PIÑA)",
+      "USD": 0.0,
+      "CUP": 80.0
+    },
+    {
+      "Producto": "LOMO AHUMADO GRILLÉ",
+      "USD": 0.0,
+      "CUP": 2700.0
+    },
+    {
+      "Producto": "LOMO AHUMADO GRILLÉ CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 3000.0
+    },
+    {
+      "Producto": "MASA DE CERDO FRITA",
+      "USD": 0.0,
+      "CUP": 3500.0
+    },
+    {
+      "Producto": "MASA DE CERDO FRITA CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 3800.0
+    },
+    {
+      "Producto": "PAN CON BISTEC DE RES",
+      "USD": 0.0,
+      "CUP": 1200.0
+    },
+    {
+      "Producto": "PAPAS FRITAS",
+      "USD": 0.0,
+      "CUP": 700.0
+    },
+    {
+      "Producto": "POLLO CORDON BLEU",
+      "USD": 0.0,
       "CUP": 2500.0
     },
     {
-      "Producto": "VINO TINTO RESERVA BOT 750ML CONDE SAN CRISTOBAL",
-      "USD": 1.0,
-      "CUP": 500.0
+      "Producto": "POLLO CORDON BLEU CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2800.0
     },
     {
-      "Producto": "VINO TINTO RESERVA CABERNET SAUVIGNON 12X750",
-      "USD": 3.0,
+      "Producto": "POLLO EN FRICASÉ",
+      "USD": 0.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "POLLO EN FRICASÉ CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2300.0
+    },
+    {
+      "Producto": "POLLO FRITO",
+      "USD": 0.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "POLLO FRITO CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2300.0
+    },
+    {
+      "Producto": "POLLO GRILLÉ",
+      "USD": 0.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "POLLO GRILLÉ CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2300.0
+    },
+    {
+      "Producto": "QUESO EMPANADO FRITO",
+      "USD": 0.0,
+      "CUP": 1200.0
+    },
+    {
+      "Producto": "ROPA VIEJA",
+      "USD": 0.0,
+      "CUP": 2200.0
+    },
+    {
+      "Producto": "ROPA VIEJA CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2500.0
+    },
+    {
+      "Producto": "SANDWICH DE POLLO",
+      "USD": 0.0,
+      "CUP": 800.0
+    },
+    {
+      "Producto": "SANDWICH DE QUESO",
+      "USD": 0.0,
+      "CUP": 600.0
+    },
+    {
+      "Producto": "SANDWICH JAMÓN",
+      "USD": 0.0,
+      "CUP": 950.0
+    },
+    {
+      "Producto": "SANDWICH JAMÓN Y QUESO",
+      "USD": 0.0,
+      "CUP": 1200.0
+    },
+    {
+      "Producto": "SANDWICH JAMONADA",
+      "USD": 0.0,
+      "CUP": 750.0
+    },
+    {
+      "Producto": "SANDWICH JAMONADA Y QUESO",
+      "USD": 0.0,
+      "CUP": 850.0
+    },
+    {
+      "Producto": "SPAGUETTIS A LA BOLOÑESA",
+      "USD": 0.0,
       "CUP": 1500.0
     },
     {
-      "Producto": "VINO TINTO SANGRE DE TORO ORIGINAL BOT 1/6/750 ML TORRES",
-      "USD": 3.0,
-      "CUP": 1500.0
-    },
-    {
-      "Producto": "VINO TINTO TEMPRANILLO D.O RIOJA BOT 6X75CL CAMPO VIEJO",
-      "USD": 3.0,
-      "CUP": 1500.0
-    },
-    {
-      "Producto": "VINO TINTO TEMPRANILLO RIOJA BOT 6/700CL CAMPO VIEJO",
-      "USD": 2.0,
+      "Producto": "SPAGUETTIS CON QUESO",
+      "USD": 0.0,
       "CUP": 1000.0
     },
     {
-      "Producto": "VINO TINTO VINEYARD MALBEC BOT 1/12/750 ML TRAPICHE",
-      "USD": 3.0,
-      "CUP": 1500.0
+      "Producto": "SPAGUETTIS CON QUESO Y JAMÓN",
+      "USD": 0.0,
+      "CUP": 2000.0
     },
     {
-      "Producto": "VINO TTO FREIXENET ITALIAN CHIANTI\nBOT 1/6/750ML",
-      "USD": 3.0,
-      "CUP": 1500.0
+      "Producto": "SUPREMA DE POLLO",
+      "USD": 0.0,
+      "CUP": 2000.0
+    },
+    {
+      "Producto": "SUPREMA DE POLLO CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2300.0
+    },
+    {
+      "Producto": "TERNERA GUISADA",
+      "USD": 0.0,
+      "CUP": 2600.0
+    },
+    {
+      "Producto": "TERNERA GUISADA CON GUARNICIÓN",
+      "USD": 0.0,
+      "CUP": 2900.0
     }
   ]
 }

@@ -31,6 +31,7 @@ def convertir_excel_a_json():
         
         # Limpiar y procesar datos
         df_filtrado['Producto'] = df_filtrado['Producto'].astype(str).str.strip().str.upper()
+        df_filtrado = df_filtrado.drop_duplicates(subset=["Producto"]).copy()
         
         # Usar las columnas USD y CUP si existen, sino usar las últimas columnas numéricas
         columnas_numericas = df_filtrado.select_dtypes(include=['number']).columns.tolist()

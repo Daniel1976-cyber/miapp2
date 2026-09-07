@@ -31,6 +31,7 @@ def convertir_excel_a_json():
         
         # Limpiar y procesar datos
         df_filtrado['Producto'] = df_filtrado['Producto'].astype(str).str.strip().str.upper()
+        df_filtrado = df_filtrado.drop_duplicates(subset=["Producto"]).copy()
         
         # Buscar las columnas correctas USD y CUP
         # Según el Excel, las últimas columnas son USD y CUP
