@@ -14,29 +14,43 @@ const API_BASE = '/api';
 // Cargar TODOS los productos desde la API del backend al iniciar
 async function cargarProductos() {
     try {
-        console.log('🔄 Cargando productos desde API del backend...');
-        const response = await fetch(`${API_BASE}/productos/buscar?q=&limite=99999`);
+        console.log('🔄 Cargando productos desde archivo JSON...');
+        const response = await fetch('./static/productos.json');
         
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}: ${response.statusText}`);
         }
         
         const data = await response.json();
-        // La API devuelve {productos: [...]}
         productosReales = data.productos || [];
         productosCargados = true;
         
-        console.log(`✅ Productos cargados desde API: ${productosReales.length}`);
+        console.log(`✅ Productos cargados desde JSON: ${productosReales.length}`);
         
-        // Mostrar algunos ejemplos en consola
         if (productosReales.length > 0) {
             console.log('Ejemplos de productos:', productosReales.slice(0, 3));
         }
         
         return true;
     } catch (error) {
-        console.error('❌ Error cargando productos desde API:', error);
-        console.log('📝 Usando datos de ejemplo como fallback');
+        console.error('❌ Error cargando productos desde JSON:', error);
+        console.log('📝 Intentando cargar desde API del backend...');
+        
+        // Fallback: intentar cargar desde API
+        try {
+            const response = await fetch(`${API_BASE}/productos/buscar?q=&limite=99999`);
+            if (response.ok) {
+                const data = await response.json();
+                productosReales = data.productos || [];
+                productosCargados = true;
+                console.log(`✅ Productos cargados desde API: ${productosReales.length}`);
+                return true;
+            }
+        } catch (apiError) {
+            console.error('❌ Error cargando desde API:', apiError);
+        }
+        
+        console.log('📝 Usando datos de ejemplo como último recurso');
         return false;
     }
 }
@@ -172,7 +186,7 @@ async function buscar() {
                 '<div class="alert alert-warning mt-2">⚠️ Usando datos cacheados - Error de conexión al backend.</div>';
         } else {
             document.getElementById('resultados').innerHTML = 
-                '<div class="alert alert-danger">❌ Error al buscar. Verifica que el backend esté corriendo en el puerto 8000.</div>';
+                '<div class="alert alert-danger">❌ Error al buscar. No se pudieron cargar los productos.</div>';
         }
     }
 }
