@@ -11,11 +11,12 @@ let productosReales = [];
 let productosCargados = false;
 const API_BASE = '/api';
 
-// Cargar TODOS los productos desde la API del backend al iniciar
+// Cargar TODOS los productos desde el archivo JSON local al iniciar
 async function cargarProductos() {
     try {
         console.log('🔄 Cargando productos desde archivo JSON...');
-        const response = await fetch('./static/productos.json');
+        const cacheBuster = new Date().getTime();
+        const response = await fetch(`./static/productos.json?t=${cacheBuster}`);
         
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}: ${response.statusText}`);
