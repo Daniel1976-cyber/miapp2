@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_productos": 287,
+    "total_productos": 288,
     "fecha_conversion": "2025-12-30",
     "archivo_origen": "productos_precios.xlsx"
   },
@@ -26,14 +26,9 @@
       "CUP": 120.0
     },
     {
-      "Producto": "AGUA MINERAL NATURAL PET 500 ML CIEGO MONTERO",
+      "Producto": "AGUA SABORIZADA SABOR MANZANA PET 330ML",
       "USD": 0.0,
       "CUP": 120.0
-    },
-    {
-      "Producto": "AGUA NATURAL 500 ML",
-      "USD": 0.0,
-      "CUP": 250.0
     },
     {
       "Producto": "AGUA SABORIZADA SABOR PIÑA PET 330ML",
@@ -44,6 +39,11 @@
       "Producto": "AGUA TONICA BOTELLA 330 ML CIEGO MONTERO",
       "USD": 0.0,
       "CUP": 120.0
+    },
+    {
+      "Producto": "AGUA  NATURAL  500 ML SAN MIGUEL",
+      "USD": 0.0,
+      "CUP": 250.0
     },
     {
       "Producto": "AGUA TONICA LATA 1/24/355 ML CIEGO MONTERO",
